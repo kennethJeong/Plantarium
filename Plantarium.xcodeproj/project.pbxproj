@@ -1,0 +1,1427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E9D695299105EA00BB68FE /* Plantarium.app in Resources */ = {isa = PBXBuildFile; fileRef = E43F97102410E543000A290C /* Plantarium.app */; };
+		E41BD09024769FA1009F2D55 /* image_hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = E41BD08D24769FA1009F2D55 /* image_hamburger.png */; };
+		E41BD09124769FA1009F2D55 /* (temp)image_me.png in Resources */ = {isa = PBXBuildFile; fileRef = E41BD08E24769FA1009F2D55 /* (temp)image_me.png */; };
+		E41BD0A92476A798009F2D55 /* searchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41BD0A82476A798009F2D55 /* searchVC.swift */; };
+		E4372B642424B709003C8983 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4372B632424B709003C8983 /* testVC.swift */; };
+		E43A2D7424445B4F006E1E1D /* Darlingtonia californica_pitcher_side.png in Resources */ = {isa = PBXBuildFile; fileRef = E43A2D6F24445B4F006E1E1D /* Darlingtonia californica_pitcher_side.png */; };
+		E43A2D7624445B4F006E1E1D /* Darlingtonia californica_flower.png in Resources */ = {isa = PBXBuildFile; fileRef = E43A2D7124445B4F006E1E1D /* Darlingtonia californica_flower.png */; };
+		E43A2D7724445B4F006E1E1D /* Darlingtonia californica_pitcher.png in Resources */ = {isa = PBXBuildFile; fileRef = E43A2D7224445B4F006E1E1D /* Darlingtonia californica_pitcher.png */; };
+		E43A2D79244E0A79006E1E1D /* bookAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43A2D78244E0A79006E1E1D /* bookAboutVC.swift */; };
+		E43C146924ED058800AF71FA /* image_silder_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E43C146824ED058800AF71FA /* image_silder_background.png */; };
+		E43D5EB62488F15400AFE848 /* button_rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = E43D5EB52488F15400AFE848 /* button_rotation.png */; };
+		E43D5EBE248FB36200AFE848 /* image_dial.png in Resources */ = {isa = PBXBuildFile; fileRef = E43D5EBD248FB36200AFE848 /* image_dial.png */; };
+		E43F97142410E543000A290C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F97132410E543000A290C /* AppDelegate.swift */; };
+		E43F97192410E543000A290C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43F97172410E543000A290C /* Main.storyboard */; };
+		E43F971B2410E546000A290C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43F971A2410E546000A290C /* Assets.xcassets */; };
+		E43F971E2410E546000A290C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43F971C2410E546000A290C /* LaunchScreen.storyboard */; };
+		E43FAAF92477C4490084B715 /* image_man.png in Resources */ = {isa = PBXBuildFile; fileRef = E43FAAF82477C4490084B715 /* image_man.png */; };
+		E441477825A70F19004DCE53 /* aboutDistributionLandscapeMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441477725A70F19004DCE53 /* aboutDistributionLandscapeMapVC.swift */; };
+		E44FA55A25CD399200829686 /* bookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44FA55925CD399200829686 /* bookVC.swift */; };
+		E456006A2432057000333414 /* bookVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45600692432057000333414 /* bookVC2.swift */; };
+		E4560072243B57E000333414 /* button_ruler_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4560070243B57DF00333414 /* button_ruler_off.png */; };
+		E4560077243B6C6A00333414 /* button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = E4560073243B6C6900333414 /* button_close.png */; };
+		E459BCF825A51C41008DC2AA /* aboutDescriptionIUCNpopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E459BCF725A51C41008DC2AA /* aboutDescriptionIUCNpopupVC.swift */; };
+		E459BCFA25A51C8C008DC2AA /* aboutDescriptionIUCNDetailpopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E459BCF925A51C8C008DC2AA /* aboutDescriptionIUCNDetailpopupVC.swift */; };
+		E459BCFC25A54F5A008DC2AA /* image_IUCN.png in Resources */ = {isa = PBXBuildFile; fileRef = E459BCFB25A54F59008DC2AA /* image_IUCN.png */; };
+		E459BCFE25A54FB7008DC2AA /* image_IUCN_redList.png in Resources */ = {isa = PBXBuildFile; fileRef = E459BCFD25A54FB6008DC2AA /* image_IUCN_redList.png */; };
+		E45D0C1A24C59F65004BB5F9 /* Darlingtonia californica.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1124C59F64004BB5F9 /* Darlingtonia californica.png */; };
+		E45D0C1B24C59F65004BB5F9 /* Dionaea muscipula.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1224C59F64004BB5F9 /* Dionaea muscipula.png */; };
+		E45D0C1C24C59F65004BB5F9 /* Utricularia dunlopii.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1324C59F64004BB5F9 /* Utricularia dunlopii.png */; };
+		E45D0C1D24C59F65004BB5F9 /* Utricularia aurea.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1424C59F64004BB5F9 /* Utricularia aurea.png */; };
+		E45D0C1E24C59F65004BB5F9 /* Catopsis berteroniana.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1524C59F64004BB5F9 /* Catopsis berteroniana.png */; };
+		E45D0C1F24C59F65004BB5F9 /* Sarracenia alata   .png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1624C59F65004BB5F9 /* Sarracenia alata   .png */; };
+		E45D0C2024C59F65004BB5F9 /* Cephalotus folicularis.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1724C59F65004BB5F9 /* Cephalotus folicularis.png */; };
+		E45D0C2124C59F65004BB5F9 /* Aldrovanda vesiculosa.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1824C59F65004BB5F9 /* Aldrovanda vesiculosa.png */; };
+		E45D0C2224C59F65004BB5F9 /* Nepenthes edwardtiana.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C1924C59F65004BB5F9 /* Nepenthes edwardtiana.png */; };
+		E45D0C3624C5AA07004BB5F9 /* image_topCultiv.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C2A24C5AA06004BB5F9 /* image_topCultiv.png */; };
+		E45D0C3824C5AA07004BB5F9 /* image_topName.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C2C24C5AA06004BB5F9 /* image_topName.png */; };
+		E45D0C3B24C5AA07004BB5F9 /* image_topEdu.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C2F24C5AA07004BB5F9 /* image_topEdu.png */; };
+		E45D0C3D24C5AA07004BB5F9 /* image_topMontage.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C3124C5AA07004BB5F9 /* image_topMontage.png */; };
+		E45D0C3E24C5AA07004BB5F9 /* image_topShop.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C3224C5AA07004BB5F9 /* image_topShop.png */; };
+		E45D0C4024C5C09E004BB5F9 /* searchNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D0C3F24C5C09E004BB5F9 /* searchNameVC.swift */; };
+		E45D0C4224C5DE96004BB5F9 /* image_more.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D0C4124C5DE95004BB5F9 /* image_more.png */; };
+		E460127925408D4500BF30E4 /* button_closeShowDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = E460127825408D4400BF30E4 /* button_closeShowDetail.png */; };
+		E460127B2540911D00BF30E4 /* button_showDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = E460127A2540911D00BF30E4 /* button_showDetail.png */; };
+		E46012EC2548B90500BF30E4 /* bookShowDetailModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46012EB2548B90500BF30E4 /* bookShowDetailModalVC.swift */; };
+		E466ACED249A3346004D6B96 /* button_classification.png in Resources */ = {isa = PBXBuildFile; fileRef = E466ACE7249A3344004D6B96 /* button_classification.png */; };
+		E466ACEE249A3346004D6B96 /* button_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = E466ACE8249A3345004D6B96 /* button_photo.png */; };
+		E466ACEF249A3346004D6B96 /* button_cultivation.png in Resources */ = {isa = PBXBuildFile; fileRef = E466ACE9249A3345004D6B96 /* button_cultivation.png */; };
+		E466ACF6249A3A30004D6B96 /* button_description.png in Resources */ = {isa = PBXBuildFile; fileRef = E466ACF5249A3A30004D6B96 /* button_description.png */; };
+		E466ACF8249B94D5004D6B96 /* aboutDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466ACF7249B94D5004D6B96 /* aboutDescriptionVC.swift */; };
+		E466ACFA249B94F6004D6B96 /* aboutPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466ACF9249B94F6004D6B96 /* aboutPhotoVC.swift */; };
+		E466ACFC249B9670004D6B96 /* aboutClassificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466ACFB249B9670004D6B96 /* aboutClassificationVC.swift */; };
+		E466ACFE249B968B004D6B96 /* aboutDistributionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466ACFD249B968B004D6B96 /* aboutDistributionVC.swift */; };
+		E470BF4C25025D8800D602E7 /* button_goFirst.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF4825025D8600D602E7 /* button_goFirst.png */; };
+		E470BF4D25025D8800D602E7 /* button_showRoot.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF4925025D8600D602E7 /* button_showRoot.png */; };
+		E470BF4E25025D8800D602E7 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF4A25025D8700D602E7 /* button_back.png */; };
+		E470BF4F25025D8800D602E7 /* button_showStem.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF4B25025D8700D602E7 /* button_showStem.png */; };
+		E470BF572502690800D602E7 /* image_crossSectionCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF542502690700D602E7 /* image_crossSectionCircle.png */; };
+		E470BF582502690800D602E7 /* image_crossSection.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF552502690700D602E7 /* image_crossSection.png */; };
+		E470BF592502690800D602E7 /* image_recombine.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF562502690800D602E7 /* image_recombine.png */; };
+		E470BF5F2504FD8E00D602E7 /* image_switchFruit.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF5C2504FD8E00D602E7 /* image_switchFruit.png */; };
+		E470BF602504FD8E00D602E7 /* button_showStalk_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF5D2504FD8E00D602E7 /* button_showStalk_off.png */; };
+		E470BF612504FD8E00D602E7 /* image_switchFlower.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF5E2504FD8E00D602E7 /* image_switchFlower.png */; };
+		E470BF6325050E4B00D602E7 /* image_switchCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF6225050E4700D602E7 /* image_switchCircle.png */; };
+		E470BF65250517A600D602E7 /* button_showStalk_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF64250517A500D602E7 /* button_showStalk_on.png */; };
+		E470BF6E250591F600D602E7 /* button_showSeed_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF6C250591F500D602E7 /* button_showSeed_on.png */; };
+		E470BF6F250591F600D602E7 /* button_showSeed_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E470BF6D250591F600D602E7 /* button_showSeed_off.png */; };
+		E475B03F25779EF200A59CD3 /* button_markQ.png in Resources */ = {isa = PBXBuildFile; fileRef = E475B03E25779EF100A59CD3 /* button_markQ.png */; };
+		E475B0412578CDBC00A59CD3 /* image_triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = E475B0402578CDBC00A59CD3 /* image_triangle.png */; };
+		E4784F662599CACA00FFA021 /* TitleAlignment.csv in Resources */ = {isa = PBXBuildFile; fileRef = E4784F652599CAC900FFA021 /* TitleAlignment.csv */; };
+		E4784F682599E10500FFA021 /* connObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4784F672599E10500FFA021 /* connObjects.swift */; };
+		E4784F6E259C7AB100FFA021 /* image_downwardArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E4784F6D259C7AB100FFA021 /* image_downwardArrow.png */; };
+		E48B884924E12F5200821AD6 /* Darlingtonia californica_stalk.png in Resources */ = {isa = PBXBuildFile; fileRef = E48B884824E12F5200821AD6 /* Darlingtonia californica_stalk.png */; };
+		E48B884B24E12F6500821AD6 /* Darlingtonia californica_flower_side.png in Resources */ = {isa = PBXBuildFile; fileRef = E48B884A24E12F6500821AD6 /* Darlingtonia californica_flower_side.png */; };
+		E48B884D24E130D700821AD6 /* button_distribution.png in Resources */ = {isa = PBXBuildFile; fileRef = E48B884C24E130D700821AD6 /* button_distribution.png */; };
+		E48B884F24E132FE00821AD6 /* aboutCultivationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B884E24E132FE00821AD6 /* aboutCultivationVC.swift */; };
+		E48B885124E135EE00821AD6 /* searchNameFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B885024E135EE00821AD6 /* searchNameFilterVC.swift */; };
+		E48B885324E15AD800821AD6 /* image_filter.png in Resources */ = {isa = PBXBuildFile; fileRef = E48B885224E15AD800821AD6 /* image_filter.png */; };
+		E48B885624E16BE800821AD6 /* image_checkbox_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E48B885424E16BE700821AD6 /* image_checkbox_off.png */; };
+		E48B885724E16BE800821AD6 /* image_checkbox_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E48B885524E16BE800821AD6 /* image_checkbox_on.png */; };
+		E48C118E25DA2AEA00132092 /* bookPartsFlowerAndFruitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48C118D25DA2AEA00132092 /* bookPartsFlowerAndFruitVC.swift */; };
+		E48C119025DC861500132092 /* testVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48C118F25DC861100132092 /* testVC2.swift */; };
+		E48C119225DCC23500132092 /* bookPartsFlowerMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48C119125DCC23500132092 /* bookPartsFlowerMapVC.swift */; };
+		E48C279C25DE6CB500132092 /* morphology in Resources */ = {isa = PBXBuildFile; fileRef = E48C279B25DE6CB500132092 /* morphology */; };
+		E4976835258E344900507E01 /* Title.csv in Resources */ = {isa = PBXBuildFile; fileRef = E4976834258E344900507E01 /* Title.csv */; };
+		E49BC09D2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_surface_colliculate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC09A2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_surface_colliculate.png */; };
+		E49BC09E2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_shape_ovoid.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC09B2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_shape_ovoid.png */; };
+		E49BC09F2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_wing_keel.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC09C2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_wing_keel.png */; };
+		E49BC0AD2553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_shape_ovate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A02553DE6E00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_shape_ovate.png */; };
+		E49BC0AE2553DE7000522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_margin_entire.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A12553DE6E00522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_margin_entire.png */; };
+		E49BC0AF2553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_starting point_rhizome.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A22553DE6F00522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_starting point_rhizome.png */; };
+		E49BC0B02553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_mucronate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A32553DE6F00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_mucronate.png */; };
+		E49BC0B12553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_pitcher shape_trumpet.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A42553DE6F00522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_pitcher shape_trumpet.png */; };
+		E49BC0B22553DE7000522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_shape_rolled.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A52553DE6F00522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_shape_rolled.png */; };
+		E49BC0B32553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_margin_entire.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A62553DE6F00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_margin_entire.png */; };
+		E49BC0B42553DE7000522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_shape_keel.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A72553DE6F00522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_shape_keel.png */; };
+		E49BC0B52553DE7000522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_hair_downward.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A82553DE6F00522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_hair_downward.png */; };
+		E49BC0B62553DE7000522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_shape_tubular.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0A92553DE6F00522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_shape_tubular.png */; };
+		E49BC0B72553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Whole_location_radical.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0AA2553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Whole_location_radical.png */; };
+		E49BC0B82553DE7000522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_direction_outward.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0AB2553DE7000522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_direction_outward.png */; };
+		E49BC0B92553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_acute.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0AC2553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_acute.png */; };
+		E49BC0BF2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_type_straight.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0BA2553DE7B00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_type_straight.png */; };
+		E49BC0C02553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_wing_sail.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0BB2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_wing_sail.png */; };
+		E49BC0C12553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_startingPoint_rhizome.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0BC2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_startingPoint_rhizome.png */; };
+		E49BC0C22553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Whole_location_radical.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0BD2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Whole_location_radical.png */; };
+		E49BC0C32553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_head_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0BE2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_head_knob.png */; };
+		E49BC0C72553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_type_capsule.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0C42553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_type_capsule.png */; };
+		E49BC0C82553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_open_loculicidal.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0C52553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_open_loculicidal.png */; };
+		E49BC0C92553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_shape_globose.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0C62553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_shape_globose.png */; };
+		E49BC0FA25541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_deltoid.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0CC25541FE000522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_deltoid.png */; };
+		E49BC0FB25541FE800522C31 /* image_morphology_flower_petal_shape_Whole_position_chairForm.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0CD25541FE000522C31 /* image_morphology_flower_petal_shape_Whole_position_chairForm.png */; };
+		E49BC0FC25541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Whole_flowerDirection_pendant.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0CE25541FE000522C31 /* image_morphology_flower_flowerBasic_shape_Whole_flowerDirection_pendant.png */; };
+		E49BC0FD25541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Whole_attechment_petiolate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0CF25541FE100522C31 /* image_morphology_flower_flowerBasic_shape_Whole_attechment_petiolate.png */; };
+		E49BC0FE25541FE800522C31 /* image_morphology_flower_petal_shape_Whole_margin_undulate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D025541FE100522C31 /* image_morphology_flower_petal_shape_Whole_margin_undulate.png */; };
+		E49BC0FF25541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_obtuse.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D125541FE100522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_obtuse.png */; };
+		E49BC10025541FE800522C31 /* image_morphology_flower_flowerDetail_basic_Whole_distinct_dichlamydeous.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D225541FE100522C31 /* image_morphology_flower_flowerDetail_basic_Whole_distinct_dichlamydeous.png */; };
+		E49BC10125541FE800522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_location_superior.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D325541FE100522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_location_superior.png */; };
+		E49BC10225541FE800522C31 /* image_morphology_flower_petal_shape_Whole_margin_entire.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D425541FE100522C31 /* image_morphology_flower_petal_shape_Whole_margin_entire.png */; };
+		E49BC10325541FE800522C31 /* image_morphology_flower_sepal_basic_Whole_seperation_polysepalous.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D525541FE200522C31 /* image_morphology_flower_sepal_basic_Whole_seperation_polysepalous.png */; };
+		E49BC10425541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_margin_entire.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D625541FE200522C31 /* image_morphology_flower_sepal_shape_Whole_margin_entire.png */; };
+		E49BC10525541FE800522C31 /* image_morphology_flower_stamen_basic_Whole_type_apostemonous.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D725541FE200522C31 /* image_morphology_flower_stamen_basic_Whole_type_apostemonous.png */; };
+		E49BC10625541FE800522C31 /* image_morphology_flower_petal_Basic_Whole_seperation_polypetalous.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D825541FE200522C31 /* image_morphology_flower_petal_Basic_Whole_seperation_polypetalous.png */; };
+		E49BC10725541FE800522C31 /* image_morphology_flower_inflorescence_basic_Whole_position_erect.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0D925541FE200522C31 /* image_morphology_flower_inflorescence_basic_Whole_position_erect.png */; };
+		E49BC10825541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0DA25541FE200522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_rounded.png */; };
+		E49BC10925541FE800522C31 /* image_morphology_flower_flowerDetail_basic_Whole_petal-sepal_alternate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0DB25541FE300522C31 /* image_morphology_flower_flowerDetail_basic_Whole_petal-sepal_alternate.png */; };
+		E49BC10A25541FE800522C31 /* image_morphology_flower_flowerBasic_basic_Whole_component_Complete.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0DC25541FE300522C31 /* image_morphology_flower_flowerBasic_basic_Whole_component_Complete.png */; };
+		E49BC10B25541FE800522C31 /* image_morphology_flower_inflorescence_basic_Whole_type_solitary.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0DD25541FE300522C31 /* image_morphology_flower_inflorescence_basic_Whole_type_solitary.png */; };
+		E49BC10C25541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_shape_broadlyOvate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0DE25541FE300522C31 /* image_morphology_flower_sepal_shape_Whole_shape_broadlyOvate.png */; };
+		E49BC10D25541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_ovate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0DF25541FE300522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_ovate.png */; };
+		E49BC10E25541FE800522C31 /* image_morphology_flower_stamen_anther_Whole_attechment_dorsifixed.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E025541FE400522C31 /* image_morphology_flower_stamen_anther_Whole_attechment_dorsifixed.png */; };
+		E49BC10F25541FE800522C31 /* image_morphology_flower_gynoecium_Basic_Whole_location_terminal.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E125541FE400522C31 /* image_morphology_flower_gynoecium_Basic_Whole_location_terminal.png */; };
+		E49BC11025541FE800522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_obturbinate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E225541FE400522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_obturbinate.png */; };
+		E49BC11125541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_margin_entire.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E325541FE400522C31 /* image_morphology_flower_inflorescence_bract_Whole_margin_entire.png */; };
+		E49BC11225541FE800522C31 /* image_morphology_flower_flowerBasic_basic_Whole_sexual_hermaphorodite.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E425541FE400522C31 /* image_morphology_flower_flowerBasic_basic_Whole_sexual_hermaphorodite.png */; };
+		E49BC11325541FE800522C31 /* image_morphology_flower_gynoecium_stigma_Whole_shape_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E525541FE400522C31 /* image_morphology_flower_gynoecium_stigma_Whole_shape_knob.png */; };
+		E49BC11425541FE800522C31 /* image_morphology_flower_petal_shape_Whole_apex_obtuse.png.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E625541FE500522C31 /* image_morphology_flower_petal_shape_Whole_apex_obtuse.png.png */; };
+		E49BC11525541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Whole_symmetric_actinomorphic.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E725541FE500522C31 /* image_morphology_flower_flowerBasic_shape_Whole_symmetric_actinomorphic.png */; };
+		E49BC11625541FE800522C31 /* image_morphology_flower_petal_shape_Whole_shape_pandulate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E825541FE500522C31 /* image_morphology_flower_petal_shape_Whole_shape_pandulate.png */; };
+		E49BC11725541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_position_conduplicate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0E925541FE500522C31 /* image_morphology_flower_sepal_shape_Whole_position_conduplicate.png */; };
+		E49BC11825541FE800522C31 /* image_morphology_flower_stamen_anther_Whole_type_dithecal.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0EA25541FE500522C31 /* image_morphology_flower_stamen_anther_Whole_type_dithecal.png */; };
+		E49BC11925541FE800522C31 /* image_morphology_flower_stamen_basic_Whole_location_hypogynous.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0EB25541FE500522C31 /* image_morphology_flower_stamen_basic_Whole_location_hypogynous.png */; };
+		E49BC11A25541FE800522C31 /* image_morphology_flower_petal_shape_Whole_apex_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0EC25541FE500522C31 /* image_morphology_flower_petal_shape_Whole_apex_rounded.png */; };
+		E49BC11B25541FE800522C31 /* image_morphology_flower_inflorescence_basic_Whole_location_scape.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0ED25541FE600522C31 /* image_morphology_flower_inflorescence_basic_Whole_location_scape.png */; };
+		E49BC11C25541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_apiculate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0EE25541FE600522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_apiculate.png */; };
+		E49BC11D25541FE800522C31 /* image_morphology_flower_stamen_filament_Whole_shape_subulate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0EF25541FE600522C31 /* image_morphology_flower_stamen_filament_Whole_shape_subulate.png */; };
+		E49BC11E25541FE800522C31 /* image_morphology_flower_gynoecium_pistil_Sarracenia_shape_umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F025541FE600522C31 /* image_morphology_flower_gynoecium_pistil_Sarracenia_shape_umbrella.png */; };
+		E49BC11F25541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_apex_obtuse.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F125541FE600522C31 /* image_morphology_flower_sepal_shape_Whole_apex_obtuse.png */; };
+		E49BC12025541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_location_acrocaulis.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F225541FE700522C31 /* image_morphology_flower_inflorescence_bract_Whole_location_acrocaulis.png */; };
+		E49BC12125541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_shape_deltoid.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F325541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_shape_deltoid.png */; };
+		E49BC12225541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_shape_ovate.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F425541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_shape_ovate.png */; };
+		E49BC12325541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_apex_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F525541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_apex_rounded.png */; };
+		E49BC12425541FE800522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_globose.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F625541FE700522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_globose.png */; };
+		E49BC12525541FE800522C31 /* image_morphology_flower_stamen_anther_Whole_open_longitudinal.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F725541FE700522C31 /* image_morphology_flower_stamen_anther_Whole_open_longitudinal.png */; };
+		E49BC12625541FE800522C31 /* image_morphology_flower_petal_shape_Whole_basal_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F825541FE800522C31 /* image_morphology_flower_petal_shape_Whole_basal_rounded.png */; };
+		E49BC12725541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Sarracenia_flowerForm_cage.png in Resources */ = {isa = PBXBuildFile; fileRef = E49BC0F925541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Sarracenia_flowerForm_cage.png */; };
+		E4A5312B25B7F21A002F3B62 /* Sarracenia alata   _flowerMap.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5311A25B7F21A002F3B62 /* Sarracenia alata   _flowerMap.png */; };
+		E4A5312C25B7F21A002F3B62 /* Sarracenia alata   _fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5311B25B7F21A002F3B62 /* Sarracenia alata   _fruit.png */; };
+		E4A5312D25B7F21A002F3B62 /* Sarracenia alata   _pitcher.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5311C25B7F21A002F3B62 /* Sarracenia alata   _pitcher.png */; };
+		E4A5312E25B7F21A002F3B62 /* Sarracenia alata   _pistil.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5311D25B7F21A002F3B62 /* Sarracenia alata   _pistil.png */; };
+		E4A5312F25B7F21A002F3B62 /* Sarracenia alata   _phyllodia.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5311E25B7F21A002F3B62 /* Sarracenia alata   _phyllodia.png */; };
+		E4A5313025B7F21A002F3B62 /* Sarracenia alata   _flower_side.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5311F25B7F21A002F3B62 /* Sarracenia alata   _flower_side.png */; };
+		E4A5313125B7F21A002F3B62 /* Sarracenia alata   _sepal.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312025B7F21A002F3B62 /* Sarracenia alata   _sepal.png */; };
+		E4A5313225B7F21A002F3B62 /* Sarracenia alata   _nonactive.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312125B7F21A002F3B62 /* Sarracenia alata   _nonactive.png */; };
+		E4A5313325B7F21A002F3B62 /* Sarracenia alata   _seed.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312225B7F21A002F3B62 /* Sarracenia alata   _seed.png */; };
+		E4A5313425B7F21A002F3B62 /* Sarracenia alata   _flower.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312325B7F21A002F3B62 /* Sarracenia alata   _flower.png */; };
+		E4A5313525B7F21A002F3B62 /* Sarracenia alata   _stalk.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312425B7F21A002F3B62 /* Sarracenia alata   _stalk.png */; };
+		E4A5313625B7F21A002F3B62 /* Sarracenia alata   _pitcher_side.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312525B7F21A002F3B62 /* Sarracenia alata   _pitcher_side.png */; };
+		E4A5313725B7F21A002F3B62 /* Sarracenia alata   _seed_group.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312625B7F21A002F3B62 /* Sarracenia alata   _seed_group.png */; };
+		E4A5313825B7F21A002F3B62 /* Sarracenia alata   _fruit_side.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312725B7F21A002F3B62 /* Sarracenia alata   _fruit_side.png */; };
+		E4A5313925B7F21A002F3B62 /* Sarracenia alata   _petal.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312825B7F21A002F3B62 /* Sarracenia alata   _petal.png */; };
+		E4A5313A25B7F21A002F3B62 /* Sarracenia alata   _stamen.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312925B7F21A002F3B62 /* Sarracenia alata   _stamen.png */; };
+		E4A5313B25B7F21A002F3B62 /* Sarracenia alata   _full.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A5312A25B7F21A002F3B62 /* Sarracenia alata   _full.png */; };
+		E4A6E55124D974F400B0DF80 /* image_silder_body.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A6E54F24D974F400B0DF80 /* image_silder_body.png */; };
+		E4CB6865245857830011BDCF /* button_man_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB685D245857810011BDCF /* button_man_off.png */; };
+		E4CB6866245857830011BDCF /* button_man_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB685E245857810011BDCF /* button_man_on.png */; };
+		E4CB6867245857830011BDCF /* button_basketball_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB685F245857810011BDCF /* button_basketball_off.png */; };
+		E4CB6868245857830011BDCF /* button_card_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB6860245857820011BDCF /* button_card_on.png */; };
+		E4CB6869245857830011BDCF /* button_card_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB6861245857820011BDCF /* button_card_off.png */; };
+		E4CB686A245857830011BDCF /* button_basketball_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB6862245857820011BDCF /* button_basketball_on.png */; };
+		E4CB686B245857830011BDCF /* button_coin_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB6863245857830011BDCF /* button_coin_off.png */; };
+		E4CB686C245857830011BDCF /* button_coin_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB6864245857830011BDCF /* button_coin_on.png */; };
+		E4CB686E2462DA570011BDCF /* button_ruler_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB686D2462DA570011BDCF /* button_ruler_on.png */; };
+		E4CB68722462DB130011BDCF /* Darlingtonia californica_full.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB68712462DB130011BDCF /* Darlingtonia californica_full.png */; };
+		E4CB68762462DD070011BDCF /* Darlingtonia californica_nonactive.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB68752462DD070011BDCF /* Darlingtonia californica_nonactive.png */; };
+		E4CB687E2462E2200011BDCF /* image_basketBall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB68782462E2200011BDCF /* image_basketBall.png */; };
+		E4CB68802462E2200011BDCF /* image_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB687A2462E2200011BDCF /* image_coin.png */; };
+		E4CB68812462E2200011BDCF /* image_card.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB687B2462E2200011BDCF /* image_card.png */; };
+		E4CB68822462E2200011BDCF /* image_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB687C2462E2200011BDCF /* image_ground.png */; };
+		E4CB68842462EAB60011BDCF /* image_dashVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CB68832462EAB60011BDCF /* image_dashVertical.png */; };
+		E4CB6886246341010011BDCF /* bookRulerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB6885246341010011BDCF /* bookRulerVC.swift */; };
+		E4CBADBE25A2E6E000506983 /* button_pistil_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D7002515F45600CE1173 /* button_pistil_off.png */; };
+		E4CCE6A725D2B07B00701123 /* bookPartsPhyllodiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCE6A625D2B07B00701123 /* bookPartsPhyllodiaVC.swift */; };
+		E4CCE6A925D2B15900701123 /* bookPartsInflorescenceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCE6A825D2B15900701123 /* bookPartsInflorescenceVC.swift */; };
+		E4CCE6AD25D2B19000701123 /* bookPartsFruitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCE6AC25D2B19000701123 /* bookPartsFruitVC.swift */; };
+		E4CCE6AF25D3F0D000701123 /* bookPartsFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCE6AE25D3F0D000701123 /* bookPartsFunctions.swift */; };
+		E4EC21762538D51800F2411D /* bookShowDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC21752538D51800F2411D /* bookShowDetailVC.swift */; };
+		E4F3D6F025149A6A00CE1173 /* image_seedZoom_in.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D6EE25149A6500CE1173 /* image_seedZoom_in.png */; };
+		E4F3D6F92514A72D00CE1173 /* image_seedZoom_out.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D6F82514A72D00CE1173 /* image_seedZoom_out.png */; };
+		E4F3D7062515F45700CE1173 /* button_flowerMap_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D6FC2515F45600CE1173 /* button_flowerMap_on.png */; };
+		E4F3D7072515F45700CE1173 /* button_sepal_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D6FD2515F45600CE1173 /* button_sepal_off.png */; };
+		E4F3D7082515F45700CE1173 /* button_petal_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D6FE2515F45600CE1173 /* button_petal_on.png */; };
+		E4F3D7092515F45700CE1173 /* button_stamen_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D6FF2515F45600CE1173 /* button_stamen_off.png */; };
+		E4F3D70B2515F45700CE1173 /* button_petal_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D7012515F45600CE1173 /* button_petal_off.png */; };
+		E4F3D70C2515F45700CE1173 /* button_pistil_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D7022515F45600CE1173 /* button_pistil_on.png */; };
+		E4F3D70D2515F45700CE1173 /* button_stamen_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D7032515F45600CE1173 /* button_stamen_on.png */; };
+		E4F3D70E2515F45700CE1173 /* button_flowerMap_off.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D7042515F45600CE1173 /* button_flowerMap_off.png */; };
+		E4F3D70F2515F45700CE1173 /* button_sepal_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F3D7052515F45600CE1173 /* button_sepal_on.png */; };
+		E4F552F725CEB32E001D7489 /* phylogeny.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F552F625CEB32E001D7489 /* phylogeny.swift */; };
+		E4F552FB25D150A8001D7489 /* bookPartsPitcherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F552FA25D150A8001D7489 /* bookPartsPitcherVC.swift */; };
+		E4FE7F23256F8FE400ECC67F /* conn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE7F22256F8FE400ECC67F /* conn.swift */; };
+		E4FE7F252570CC4500ECC67F /* csvConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE7F242570CC4500ECC67F /* csvConverter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4FE7F102567A8F100ECC67F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E41BD08D24769FA1009F2D55 /* image_hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_hamburger.png; sourceTree = "<group>"; };
+		E41BD08E24769FA1009F2D55 /* (temp)image_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(temp)image_me.png"; sourceTree = "<group>"; };
+		E41BD0A82476A798009F2D55 /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVC.swift; sourceTree = "<group>"; };
+		E4372B632424B709003C8983 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
+		E43A2D6F24445B4F006E1E1D /* Darlingtonia californica_pitcher_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darlingtonia californica_pitcher_side.png"; sourceTree = "<group>"; };
+		E43A2D7124445B4F006E1E1D /* Darlingtonia californica_flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darlingtonia californica_flower.png"; sourceTree = "<group>"; };
+		E43A2D7224445B4F006E1E1D /* Darlingtonia californica_pitcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darlingtonia californica_pitcher.png"; sourceTree = "<group>"; };
+		E43A2D78244E0A79006E1E1D /* bookAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookAboutVC.swift; sourceTree = "<group>"; };
+		E43C146824ED058800AF71FA /* image_silder_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_silder_background.png; sourceTree = "<group>"; };
+		E43D5EB52488F15400AFE848 /* button_rotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_rotation.png; sourceTree = "<group>"; };
+		E43D5EBD248FB36200AFE848 /* image_dial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_dial.png; sourceTree = "<group>"; };
+		E43F97102410E543000A290C /* Plantarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plantarium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43F97132410E543000A290C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E43F97182410E543000A290C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E43F971A2410E546000A290C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E43F971D2410E546000A290C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E43F971F2410E546000A290C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43FAAF82477C4490084B715 /* image_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_man.png; sourceTree = "<group>"; };
+		E441477725A70F19004DCE53 /* aboutDistributionLandscapeMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutDistributionLandscapeMapVC.swift; sourceTree = "<group>"; };
+		E44FA55925CD399200829686 /* bookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookVC.swift; sourceTree = "<group>"; };
+		E45600692432057000333414 /* bookVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookVC2.swift; sourceTree = "<group>"; };
+		E4560070243B57DF00333414 /* button_ruler_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ruler_off.png; sourceTree = "<group>"; };
+		E4560073243B6C6900333414 /* button_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_close.png; sourceTree = "<group>"; };
+		E459BCF725A51C41008DC2AA /* aboutDescriptionIUCNpopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutDescriptionIUCNpopupVC.swift; sourceTree = "<group>"; };
+		E459BCF925A51C8C008DC2AA /* aboutDescriptionIUCNDetailpopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutDescriptionIUCNDetailpopupVC.swift; sourceTree = "<group>"; };
+		E459BCFB25A54F59008DC2AA /* image_IUCN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_IUCN.png; sourceTree = "<group>"; };
+		E459BCFD25A54FB6008DC2AA /* image_IUCN_redList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_IUCN_redList.png; sourceTree = "<group>"; };
+		E45D0C1124C59F64004BB5F9 /* Darlingtonia californica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darlingtonia californica.png"; sourceTree = "<group>"; };
+		E45D0C1224C59F64004BB5F9 /* Dionaea muscipula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dionaea muscipula.png"; sourceTree = "<group>"; };
+		E45D0C1324C59F64004BB5F9 /* Utricularia dunlopii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Utricularia dunlopii.png"; sourceTree = "<group>"; };
+		E45D0C1424C59F64004BB5F9 /* Utricularia aurea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Utricularia aurea.png"; sourceTree = "<group>"; };
+		E45D0C1524C59F64004BB5F9 /* Catopsis berteroniana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Catopsis berteroniana.png"; sourceTree = "<group>"; };
+		E45D0C1624C59F65004BB5F9 /* Sarracenia alata   .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   .png"; sourceTree = "<group>"; };
+		E45D0C1724C59F65004BB5F9 /* Cephalotus folicularis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cephalotus folicularis.png"; sourceTree = "<group>"; };
+		E45D0C1824C59F65004BB5F9 /* Aldrovanda vesiculosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aldrovanda vesiculosa.png"; sourceTree = "<group>"; };
+		E45D0C1924C59F65004BB5F9 /* Nepenthes edwardtiana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nepenthes edwardtiana.png"; sourceTree = "<group>"; };
+		E45D0C2A24C5AA06004BB5F9 /* image_topCultiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_topCultiv.png; sourceTree = "<group>"; };
+		E45D0C2C24C5AA06004BB5F9 /* image_topName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_topName.png; sourceTree = "<group>"; };
+		E45D0C2F24C5AA07004BB5F9 /* image_topEdu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_topEdu.png; sourceTree = "<group>"; };
+		E45D0C3124C5AA07004BB5F9 /* image_topMontage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_topMontage.png; sourceTree = "<group>"; };
+		E45D0C3224C5AA07004BB5F9 /* image_topShop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_topShop.png; sourceTree = "<group>"; };
+		E45D0C3F24C5C09E004BB5F9 /* searchNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchNameVC.swift; sourceTree = "<group>"; };
+		E45D0C4124C5DE95004BB5F9 /* image_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_more.png; sourceTree = "<group>"; };
+		E460127825408D4400BF30E4 /* button_closeShowDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_closeShowDetail.png; sourceTree = "<group>"; };
+		E460127A2540911D00BF30E4 /* button_showDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_showDetail.png; sourceTree = "<group>"; };
+		E46012EB2548B90500BF30E4 /* bookShowDetailModalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookShowDetailModalVC.swift; sourceTree = "<group>"; };
+		E466ACE7249A3344004D6B96 /* button_classification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_classification.png; sourceTree = "<group>"; };
+		E466ACE8249A3345004D6B96 /* button_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_photo.png; sourceTree = "<group>"; };
+		E466ACE9249A3345004D6B96 /* button_cultivation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_cultivation.png; sourceTree = "<group>"; };
+		E466ACF5249A3A30004D6B96 /* button_description.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_description.png; sourceTree = "<group>"; };
+		E466ACF7249B94D5004D6B96 /* aboutDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutDescriptionVC.swift; sourceTree = "<group>"; };
+		E466ACF9249B94F6004D6B96 /* aboutPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutPhotoVC.swift; sourceTree = "<group>"; };
+		E466ACFB249B9670004D6B96 /* aboutClassificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutClassificationVC.swift; sourceTree = "<group>"; };
+		E466ACFD249B968B004D6B96 /* aboutDistributionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutDistributionVC.swift; sourceTree = "<group>"; };
+		E470BF4825025D8600D602E7 /* button_goFirst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_goFirst.png; sourceTree = "<group>"; };
+		E470BF4925025D8600D602E7 /* button_showRoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_showRoot.png; sourceTree = "<group>"; };
+		E470BF4A25025D8700D602E7 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
+		E470BF4B25025D8700D602E7 /* button_showStem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_showStem.png; sourceTree = "<group>"; };
+		E470BF542502690700D602E7 /* image_crossSectionCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_crossSectionCircle.png; sourceTree = "<group>"; };
+		E470BF552502690700D602E7 /* image_crossSection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_crossSection.png; sourceTree = "<group>"; };
+		E470BF562502690800D602E7 /* image_recombine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_recombine.png; sourceTree = "<group>"; };
+		E470BF5C2504FD8E00D602E7 /* image_switchFruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_switchFruit.png; sourceTree = "<group>"; };
+		E470BF5D2504FD8E00D602E7 /* button_showStalk_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_showStalk_off.png; sourceTree = "<group>"; };
+		E470BF5E2504FD8E00D602E7 /* image_switchFlower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_switchFlower.png; sourceTree = "<group>"; };
+		E470BF6225050E4700D602E7 /* image_switchCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_switchCircle.png; sourceTree = "<group>"; };
+		E470BF64250517A500D602E7 /* button_showStalk_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_showStalk_on.png; sourceTree = "<group>"; };
+		E470BF6C250591F500D602E7 /* button_showSeed_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_showSeed_on.png; sourceTree = "<group>"; };
+		E470BF6D250591F600D602E7 /* button_showSeed_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_showSeed_off.png; sourceTree = "<group>"; };
+		E475B03E25779EF100A59CD3 /* button_markQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_markQ.png; sourceTree = "<group>"; };
+		E475B0402578CDBC00A59CD3 /* image_triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_triangle.png; sourceTree = "<group>"; };
+		E4784F652599CAC900FFA021 /* TitleAlignment.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TitleAlignment.csv; sourceTree = "<group>"; };
+		E4784F672599E10500FFA021 /* connObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connObjects.swift; sourceTree = "<group>"; };
+		E4784F6D259C7AB100FFA021 /* image_downwardArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_downwardArrow.png; sourceTree = "<group>"; };
+		E48B884824E12F5200821AD6 /* Darlingtonia californica_stalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darlingtonia californica_stalk.png"; sourceTree = "<group>"; };
+		E48B884A24E12F6500821AD6 /* Darlingtonia californica_flower_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darlingtonia californica_flower_side.png"; sourceTree = "<group>"; };
+		E48B884C24E130D700821AD6 /* button_distribution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_distribution.png; sourceTree = "<group>"; };
+		E48B884E24E132FE00821AD6 /* aboutCultivationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutCultivationVC.swift; sourceTree = "<group>"; };
+		E48B885024E135EE00821AD6 /* searchNameFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchNameFilterVC.swift; sourceTree = "<group>"; };
+		E48B885224E15AD800821AD6 /* image_filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_filter.png; sourceTree = "<group>"; };
+		E48B885424E16BE700821AD6 /* image_checkbox_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_checkbox_off.png; sourceTree = "<group>"; };
+		E48B885524E16BE800821AD6 /* image_checkbox_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_checkbox_on.png; sourceTree = "<group>"; };
+		E48C118D25DA2AEA00132092 /* bookPartsFlowerAndFruitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookPartsFlowerAndFruitVC.swift; sourceTree = "<group>"; };
+		E48C118F25DC861100132092 /* testVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC2.swift; sourceTree = "<group>"; };
+		E48C119125DCC23500132092 /* bookPartsFlowerMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookPartsFlowerMapVC.swift; sourceTree = "<group>"; };
+		E48C279B25DE6CB500132092 /* morphology */ = {isa = PBXFileReference; lastKnownFileType = folder; path = morphology; sourceTree = "<group>"; };
+		E4976834258E344900507E01 /* Title.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Title.csv; sourceTree = "<group>"; };
+		E49BC09A2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_surface_colliculate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_seed_seed_basic_Whole_surface_colliculate.png; sourceTree = "<group>"; };
+		E49BC09B2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_shape_ovoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_seed_seed_basic_Whole_shape_ovoid.png; sourceTree = "<group>"; };
+		E49BC09C2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_wing_keel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_seed_seed_basic_Whole_wing_keel.png; sourceTree = "<group>"; };
+		E49BC0A02553DE6E00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_shape_ovate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_cover_Sarracenia_shape_ovate.png; sourceTree = "<group>"; };
+		E49BC0A12553DE6E00522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_margin_entire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_wing_Sarracenia_margin_entire.png; sourceTree = "<group>"; };
+		E49BC0A22553DE6F00522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_starting point_rhizome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_morphology_pitcher_pitcher_basic_Sarracenia_starting point_rhizome.png"; sourceTree = "<group>"; };
+		E49BC0A32553DE6F00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_mucronate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_cover_Sarracenia_apex_mucronate.png; sourceTree = "<group>"; };
+		E49BC0A42553DE6F00522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_pitcher shape_trumpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_morphology_pitcher_pitcher_basic_Sarracenia_pitcher shape_trumpet.png"; sourceTree = "<group>"; };
+		E49BC0A52553DE6F00522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_shape_rolled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_peristome_Sarracenia_shape_rolled.png; sourceTree = "<group>"; };
+		E49BC0A62553DE6F00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_margin_entire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_cover_Sarracenia_margin_entire.png; sourceTree = "<group>"; };
+		E49BC0A72553DE6F00522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_shape_keel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_wing_Sarracenia_shape_keel.png; sourceTree = "<group>"; };
+		E49BC0A82553DE6F00522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_hair_downward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_body_Sarracenia_hair_downward.png; sourceTree = "<group>"; };
+		E49BC0A92553DE6F00522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_shape_tubular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_body_Sarracenia_shape_tubular.png; sourceTree = "<group>"; };
+		E49BC0AA2553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Whole_location_radical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_basic_Whole_location_radical.png; sourceTree = "<group>"; };
+		E49BC0AB2553DE7000522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_direction_outward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_peristome_Sarracenia_direction_outward.png; sourceTree = "<group>"; };
+		E49BC0AC2553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_acute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_pitcher_pitcher_cover_Sarracenia_apex_acute.png; sourceTree = "<group>"; };
+		E49BC0BA2553DE7B00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_type_straight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_phyllodia_phyllodia_basic_Sarracenia_type_straight.png; sourceTree = "<group>"; };
+		E49BC0BB2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_wing_sail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_phyllodia_phyllodia_basic_Sarracenia_wing_sail.png; sourceTree = "<group>"; };
+		E49BC0BC2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_startingPoint_rhizome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_phyllodia_phyllodia_basic_Sarracenia_startingPoint_rhizome.png; sourceTree = "<group>"; };
+		E49BC0BD2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Whole_location_radical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_phyllodia_phyllodia_basic_Whole_location_radical.png; sourceTree = "<group>"; };
+		E49BC0BE2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_head_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_phyllodia_phyllodia_basic_Sarracenia_head_knob.png; sourceTree = "<group>"; };
+		E49BC0C42553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_type_capsule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_fruit_fruit_basic_Whole_type_capsule.png; sourceTree = "<group>"; };
+		E49BC0C52553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_open_loculicidal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_fruit_fruit_basic_Whole_open_loculicidal.png; sourceTree = "<group>"; };
+		E49BC0C62553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_shape_globose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_fruit_fruit_basic_Whole_shape_globose.png; sourceTree = "<group>"; };
+		E49BC0CC25541FE000522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_deltoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_bract_Whole_shape_deltoid.png; sourceTree = "<group>"; };
+		E49BC0CD25541FE000522C31 /* image_morphology_flower_petal_shape_Whole_position_chairForm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_petal_shape_Whole_position_chairForm.png; sourceTree = "<group>"; };
+		E49BC0CE25541FE000522C31 /* image_morphology_flower_flowerBasic_shape_Whole_flowerDirection_pendant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_flowerBasic_shape_Whole_flowerDirection_pendant.png; sourceTree = "<group>"; };
+		E49BC0CF25541FE100522C31 /* image_morphology_flower_flowerBasic_shape_Whole_attechment_petiolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_flowerBasic_shape_Whole_attechment_petiolate.png; sourceTree = "<group>"; };
+		E49BC0D025541FE100522C31 /* image_morphology_flower_petal_shape_Whole_margin_undulate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_petal_shape_Whole_margin_undulate.png; sourceTree = "<group>"; };
+		E49BC0D125541FE100522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_obtuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_bract_Whole_apex_obtuse.png; sourceTree = "<group>"; };
+		E49BC0D225541FE100522C31 /* image_morphology_flower_flowerDetail_basic_Whole_distinct_dichlamydeous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_flowerDetail_basic_Whole_distinct_dichlamydeous.png; sourceTree = "<group>"; };
+		E49BC0D325541FE100522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_location_superior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_gynoecium_Ovary_Whole_location_superior.png; sourceTree = "<group>"; };
+		E49BC0D425541FE100522C31 /* image_morphology_flower_petal_shape_Whole_margin_entire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_petal_shape_Whole_margin_entire.png; sourceTree = "<group>"; };
+		E49BC0D525541FE200522C31 /* image_morphology_flower_sepal_basic_Whole_seperation_polysepalous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_sepal_basic_Whole_seperation_polysepalous.png; sourceTree = "<group>"; };
+		E49BC0D625541FE200522C31 /* image_morphology_flower_sepal_shape_Whole_margin_entire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_sepal_shape_Whole_margin_entire.png; sourceTree = "<group>"; };
+		E49BC0D725541FE200522C31 /* image_morphology_flower_stamen_basic_Whole_type_apostemonous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_stamen_basic_Whole_type_apostemonous.png; sourceTree = "<group>"; };
+		E49BC0D825541FE200522C31 /* image_morphology_flower_petal_Basic_Whole_seperation_polypetalous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_petal_Basic_Whole_seperation_polypetalous.png; sourceTree = "<group>"; };
+		E49BC0D925541FE200522C31 /* image_morphology_flower_inflorescence_basic_Whole_position_erect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_basic_Whole_position_erect.png; sourceTree = "<group>"; };
+		E49BC0DA25541FE200522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_bract_Whole_apex_rounded.png; sourceTree = "<group>"; };
+		E49BC0DB25541FE300522C31 /* image_morphology_flower_flowerDetail_basic_Whole_petal-sepal_alternate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_morphology_flower_flowerDetail_basic_Whole_petal-sepal_alternate.png"; sourceTree = "<group>"; };
+		E49BC0DC25541FE300522C31 /* image_morphology_flower_flowerBasic_basic_Whole_component_Complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_flowerBasic_basic_Whole_component_Complete.png; sourceTree = "<group>"; };
+		E49BC0DD25541FE300522C31 /* image_morphology_flower_inflorescence_basic_Whole_type_solitary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_basic_Whole_type_solitary.png; sourceTree = "<group>"; };
+		E49BC0DE25541FE300522C31 /* image_morphology_flower_sepal_shape_Whole_shape_broadlyOvate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_sepal_shape_Whole_shape_broadlyOvate.png; sourceTree = "<group>"; };
+		E49BC0DF25541FE300522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_ovate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_bract_Whole_shape_ovate.png; sourceTree = "<group>"; };
+		E49BC0E025541FE400522C31 /* image_morphology_flower_stamen_anther_Whole_attechment_dorsifixed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_stamen_anther_Whole_attechment_dorsifixed.png; sourceTree = "<group>"; };
+		E49BC0E125541FE400522C31 /* image_morphology_flower_gynoecium_Basic_Whole_location_terminal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_gynoecium_Basic_Whole_location_terminal.png; sourceTree = "<group>"; };
+		E49BC0E225541FE400522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_obturbinate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_gynoecium_Ovary_Whole_shape_obturbinate.png; sourceTree = "<group>"; };
+		E49BC0E325541FE400522C31 /* image_morphology_flower_inflorescence_bract_Whole_margin_entire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_bract_Whole_margin_entire.png; sourceTree = "<group>"; };
+		E49BC0E425541FE400522C31 /* image_morphology_flower_flowerBasic_basic_Whole_sexual_hermaphorodite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_flowerBasic_basic_Whole_sexual_hermaphorodite.png; sourceTree = "<group>"; };
+		E49BC0E525541FE400522C31 /* image_morphology_flower_gynoecium_stigma_Whole_shape_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_gynoecium_stigma_Whole_shape_knob.png; sourceTree = "<group>"; };
+		E49BC0E625541FE500522C31 /* image_morphology_flower_petal_shape_Whole_apex_obtuse.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_petal_shape_Whole_apex_obtuse.png.png; sourceTree = "<group>"; };
+		E49BC0E725541FE500522C31 /* image_morphology_flower_flowerBasic_shape_Whole_symmetric_actinomorphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_flowerBasic_shape_Whole_symmetric_actinomorphic.png; sourceTree = "<group>"; };
+		E49BC0E825541FE500522C31 /* image_morphology_flower_petal_shape_Whole_shape_pandulate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_petal_shape_Whole_shape_pandulate.png; sourceTree = "<group>"; };
+		E49BC0E925541FE500522C31 /* image_morphology_flower_sepal_shape_Whole_position_conduplicate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_sepal_shape_Whole_position_conduplicate.png; sourceTree = "<group>"; };
+		E49BC0EA25541FE500522C31 /* image_morphology_flower_stamen_anther_Whole_type_dithecal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_stamen_anther_Whole_type_dithecal.png; sourceTree = "<group>"; };
+		E49BC0EB25541FE500522C31 /* image_morphology_flower_stamen_basic_Whole_location_hypogynous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_stamen_basic_Whole_location_hypogynous.png; sourceTree = "<group>"; };
+		E49BC0EC25541FE500522C31 /* image_morphology_flower_petal_shape_Whole_apex_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_petal_shape_Whole_apex_rounded.png; sourceTree = "<group>"; };
+		E49BC0ED25541FE600522C31 /* image_morphology_flower_inflorescence_basic_Whole_location_scape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_basic_Whole_location_scape.png; sourceTree = "<group>"; };
+		E49BC0EE25541FE600522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_apiculate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_bract_Whole_apex_apiculate.png; sourceTree = "<group>"; };
+		E49BC0EF25541FE600522C31 /* image_morphology_flower_stamen_filament_Whole_shape_subulate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_stamen_filament_Whole_shape_subulate.png; sourceTree = "<group>"; };
+		E49BC0F025541FE600522C31 /* image_morphology_flower_gynoecium_pistil_Sarracenia_shape_umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_gynoecium_pistil_Sarracenia_shape_umbrella.png; sourceTree = "<group>"; };
+		E49BC0F125541FE600522C31 /* image_morphology_flower_sepal_shape_Whole_apex_obtuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_sepal_shape_Whole_apex_obtuse.png; sourceTree = "<group>"; };
+		E49BC0F225541FE700522C31 /* image_morphology_flower_inflorescence_bract_Whole_location_acrocaulis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_inflorescence_bract_Whole_location_acrocaulis.png; sourceTree = "<group>"; };
+		E49BC0F325541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_shape_deltoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_sepal_shape_Whole_shape_deltoid.png; sourceTree = "<group>"; };
+		E49BC0F425541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_shape_ovate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_sepal_shape_Whole_shape_ovate.png; sourceTree = "<group>"; };
+		E49BC0F525541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_apex_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_sepal_shape_Whole_apex_rounded.png; sourceTree = "<group>"; };
+		E49BC0F625541FE700522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_globose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_gynoecium_Ovary_Whole_shape_globose.png; sourceTree = "<group>"; };
+		E49BC0F725541FE700522C31 /* image_morphology_flower_stamen_anther_Whole_open_longitudinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_stamen_anther_Whole_open_longitudinal.png; sourceTree = "<group>"; };
+		E49BC0F825541FE800522C31 /* image_morphology_flower_petal_shape_Whole_basal_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_petal_shape_Whole_basal_rounded.png; sourceTree = "<group>"; };
+		E49BC0F925541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Sarracenia_flowerForm_cage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_morphology_flower_flowerBasic_shape_Sarracenia_flowerForm_cage.png; sourceTree = "<group>"; };
+		E4A5311A25B7F21A002F3B62 /* Sarracenia alata   _flowerMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _flowerMap.png"; sourceTree = "<group>"; };
+		E4A5311B25B7F21A002F3B62 /* Sarracenia alata   _fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _fruit.png"; sourceTree = "<group>"; };
+		E4A5311C25B7F21A002F3B62 /* Sarracenia alata   _pitcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _pitcher.png"; sourceTree = "<group>"; };
+		E4A5311D25B7F21A002F3B62 /* Sarracenia alata   _pistil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _pistil.png"; sourceTree = "<group>"; };
+		E4A5311E25B7F21A002F3B62 /* Sarracenia alata   _phyllodia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _phyllodia.png"; sourceTree = "<group>"; };
+		E4A5311F25B7F21A002F3B62 /* Sarracenia alata   _flower_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _flower_side.png"; sourceTree = "<group>"; };
+		E4A5312025B7F21A002F3B62 /* Sarracenia alata   _sepal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _sepal.png"; sourceTree = "<group>"; };
+		E4A5312125B7F21A002F3B62 /* Sarracenia alata   _nonactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _nonactive.png"; sourceTree = "<group>"; };
+		E4A5312225B7F21A002F3B62 /* Sarracenia alata   _seed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _seed.png"; sourceTree = "<group>"; };
+		E4A5312325B7F21A002F3B62 /* Sarracenia alata   _flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _flower.png"; sourceTree = "<group>"; };
+		E4A5312425B7F21A002F3B62 /* Sarracenia alata   _stalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _stalk.png"; sourceTree = "<group>"; };
+		E4A5312525B7F21A002F3B62 /* Sarracenia alata   _pitcher_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _pitcher_side.png"; sourceTree = "<group>"; };
+		E4A5312625B7F21A002F3B62 /* Sarracenia alata   _seed_group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _seed_group.png"; sourceTree = "<group>"; };
+		E4A5312725B7F21A002F3B62 /* Sarracenia alata   _fruit_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _fruit_side.png"; sourceTree = "<group>"; };
+		E4A5312825B7F21A002F3B62 /* Sarracenia alata   _petal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _petal.png"; sourceTree = "<group>"; };
+		E4A5312925B7F21A002F3B62 /* Sarracenia alata   _stamen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _stamen.png"; sourceTree = "<group>"; };
+		E4A5312A25B7F21A002F3B62 /* Sarracenia alata   _full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sarracenia alata   _full.png"; sourceTree = "<group>"; };
+		E4A6E54F24D974F400B0DF80 /* image_silder_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_silder_body.png; sourceTree = "<group>"; };
+		E4CB685D245857810011BDCF /* button_man_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_man_off.png; sourceTree = "<group>"; };
+		E4CB685E245857810011BDCF /* button_man_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_man_on.png; sourceTree = "<group>"; };
+		E4CB685F245857810011BDCF /* button_basketball_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_basketball_off.png; sourceTree = "<group>"; };
+		E4CB6860245857820011BDCF /* button_card_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_card_on.png; sourceTree = "<group>"; };
+		E4CB6861245857820011BDCF /* button_card_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_card_off.png; sourceTree = "<group>"; };
+		E4CB6862245857820011BDCF /* button_basketball_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_basketball_on.png; sourceTree = "<group>"; };
+		E4CB6863245857830011BDCF /* button_coin_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_coin_off.png; sourceTree = "<group>"; };
+		E4CB6864245857830011BDCF /* button_coin_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_coin_on.png; sourceTree = "<group>"; };
+		E4CB686D2462DA570011BDCF /* button_ruler_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ruler_on.png; sourceTree = "<group>"; };
+		E4CB68712462DB130011BDCF /* Darlingtonia californica_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darlingtonia californica_full.png"; sourceTree = "<group>"; };
+		E4CB68752462DD070011BDCF /* Darlingtonia californica_nonactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darlingtonia californica_nonactive.png"; sourceTree = "<group>"; };
+		E4CB68782462E2200011BDCF /* image_basketBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_basketBall.png; sourceTree = "<group>"; };
+		E4CB687A2462E2200011BDCF /* image_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_coin.png; sourceTree = "<group>"; };
+		E4CB687B2462E2200011BDCF /* image_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_card.png; sourceTree = "<group>"; };
+		E4CB687C2462E2200011BDCF /* image_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_ground.png; sourceTree = "<group>"; };
+		E4CB68832462EAB60011BDCF /* image_dashVertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_dashVertical.png; sourceTree = "<group>"; };
+		E4CB6885246341010011BDCF /* bookRulerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookRulerVC.swift; sourceTree = "<group>"; };
+		E4CCE6A625D2B07B00701123 /* bookPartsPhyllodiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookPartsPhyllodiaVC.swift; sourceTree = "<group>"; };
+		E4CCE6A825D2B15900701123 /* bookPartsInflorescenceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookPartsInflorescenceVC.swift; sourceTree = "<group>"; };
+		E4CCE6AC25D2B19000701123 /* bookPartsFruitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookPartsFruitVC.swift; sourceTree = "<group>"; };
+		E4CCE6AE25D3F0D000701123 /* bookPartsFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookPartsFunctions.swift; sourceTree = "<group>"; };
+		E4EC21752538D51800F2411D /* bookShowDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookShowDetailVC.swift; sourceTree = "<group>"; };
+		E4F3D6EE25149A6500CE1173 /* image_seedZoom_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_seedZoom_in.png; sourceTree = "<group>"; };
+		E4F3D6F82514A72D00CE1173 /* image_seedZoom_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_seedZoom_out.png; sourceTree = "<group>"; };
+		E4F3D6FC2515F45600CE1173 /* button_flowerMap_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_flowerMap_on.png; sourceTree = "<group>"; };
+		E4F3D6FD2515F45600CE1173 /* button_sepal_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_sepal_off.png; sourceTree = "<group>"; };
+		E4F3D6FE2515F45600CE1173 /* button_petal_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_petal_on.png; sourceTree = "<group>"; };
+		E4F3D6FF2515F45600CE1173 /* button_stamen_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_stamen_off.png; sourceTree = "<group>"; };
+		E4F3D7002515F45600CE1173 /* button_pistil_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pistil_off.png; sourceTree = "<group>"; };
+		E4F3D7012515F45600CE1173 /* button_petal_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_petal_off.png; sourceTree = "<group>"; };
+		E4F3D7022515F45600CE1173 /* button_pistil_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pistil_on.png; sourceTree = "<group>"; };
+		E4F3D7032515F45600CE1173 /* button_stamen_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_stamen_on.png; sourceTree = "<group>"; };
+		E4F3D7042515F45600CE1173 /* button_flowerMap_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_flowerMap_off.png; sourceTree = "<group>"; };
+		E4F3D7052515F45600CE1173 /* button_sepal_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_sepal_on.png; sourceTree = "<group>"; };
+		E4F552F625CEB32E001D7489 /* phylogeny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phylogeny.swift; sourceTree = "<group>"; };
+		E4F552FA25D150A8001D7489 /* bookPartsPitcherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookPartsPitcherVC.swift; sourceTree = "<group>"; };
+		E4FE7F22256F8FE400ECC67F /* conn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conn.swift; sourceTree = "<group>"; };
+		E4FE7F242570CC4500ECC67F /* csvConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csvConverter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43F970D2410E543000A290C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEF6C0B39CEFBD0DE89D474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E41BD08B24769E4A009F2D55 /* searching */ = {
+			isa = PBXGroup;
+			children = (
+				E45D0C1024C59D88004BB5F9 /* searchName */,
+				E41BD08E24769FA1009F2D55 /* (temp)image_me.png */,
+				E41BD08D24769FA1009F2D55 /* image_hamburger.png */,
+			);
+			path = searching;
+			sourceTree = "<group>";
+		};
+		E43A2D7A244E0C53006E1E1D /* about */ = {
+			isa = PBXGroup;
+			children = (
+				E466ACFF249B98E4004D6B96 /* aboutDescription */,
+				E4784F6A259C70CA00FFA021 /* aboutClassification */,
+				E466ACF5249A3A30004D6B96 /* button_description.png */,
+				E466ACE7249A3344004D6B96 /* button_classification.png */,
+				E48B884C24E130D700821AD6 /* button_distribution.png */,
+				E466ACE9249A3345004D6B96 /* button_cultivation.png */,
+				E466ACE8249A3345004D6B96 /* button_photo.png */,
+			);
+			path = about;
+			sourceTree = "<group>";
+		};
+		E43F97072410E543000A290C = {
+			isa = PBXGroup;
+			children = (
+				E43F97122410E543000A290C /* Plantarium */,
+				E43F97112410E543000A290C /* Products */,
+				3CEF6C0B39CEFBD0DE89D474 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E43F97112410E543000A290C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E43F97102410E543000A290C /* Plantarium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E43F97122410E543000A290C /* Plantarium */ = {
+			isa = PBXGroup;
+			children = (
+				E43F97272410E5B5000A290C /* image */,
+				E43F97132410E543000A290C /* AppDelegate.swift */,
+				E43F97172410E543000A290C /* Main.storyboard */,
+				E43F971A2410E546000A290C /* Assets.xcassets */,
+				E43F971C2410E546000A290C /* LaunchScreen.storyboard */,
+				E43F971F2410E546000A290C /* Info.plist */,
+				E4F552F625CEB32E001D7489 /* phylogeny.swift */,
+				E4372B632424B709003C8983 /* testVC.swift */,
+				E48C118F25DC861100132092 /* testVC2.swift */,
+				E41BD0A82476A798009F2D55 /* searchVC.swift */,
+				E45D0C3F24C5C09E004BB5F9 /* searchNameVC.swift */,
+				E48B885024E135EE00821AD6 /* searchNameFilterVC.swift */,
+				E44FA55925CD399200829686 /* bookVC.swift */,
+				E4CB6885246341010011BDCF /* bookRulerVC.swift */,
+				E4F552FC25D150AE001D7489 /* bookPartsVCs */,
+				E45600692432057000333414 /* bookVC2.swift */,
+				E4EC21752538D51800F2411D /* bookShowDetailVC.swift */,
+				E46012EB2548B90500BF30E4 /* bookShowDetailModalVC.swift */,
+				E43A2D78244E0A79006E1E1D /* bookAboutVC.swift */,
+				E466ACF7249B94D5004D6B96 /* aboutDescriptionVC.swift */,
+				E459BCF725A51C41008DC2AA /* aboutDescriptionIUCNpopupVC.swift */,
+				E459BCF925A51C8C008DC2AA /* aboutDescriptionIUCNDetailpopupVC.swift */,
+				E466ACFB249B9670004D6B96 /* aboutClassificationVC.swift */,
+				E466ACFD249B968B004D6B96 /* aboutDistributionVC.swift */,
+				E441477725A70F19004DCE53 /* aboutDistributionLandscapeMapVC.swift */,
+				E48B884E24E132FE00821AD6 /* aboutCultivationVC.swift */,
+				E466ACF9249B94F6004D6B96 /* aboutPhotoVC.swift */,
+				E4FE7F22256F8FE400ECC67F /* conn.swift */,
+				E4784F672599E10500FFA021 /* connObjects.swift */,
+				E4FE7F242570CC4500ECC67F /* csvConverter.swift */,
+				E4976834258E344900507E01 /* Title.csv */,
+				E4784F652599CAC900FFA021 /* TitleAlignment.csv */,
+			);
+			path = Plantarium;
+			sourceTree = "<group>";
+		};
+		E43F97272410E5B5000A290C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				E49BC129255A69BB00522C31 /* plants */,
+				E41BD08B24769E4A009F2D55 /* searching */,
+				E43F97282410E5BB000A290C /* book */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		E43F97282410E5BB000A290C /* book */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3D6FA2515F3D500CE1173 /* viewMain */,
+				E4CB685C245856F00011BDCF /* ruler */,
+				E43A2D7A244E0C53006E1E1D /* about */,
+				E48C279B25DE6CB500132092 /* morphology */,
+				E4A6E54F24D974F400B0DF80 /* image_silder_body.png */,
+				E43C146824ED058800AF71FA /* image_silder_background.png */,
+			);
+			path = book;
+			sourceTree = "<group>";
+		};
+		E43F97292410E788000A290C /* Darlingtonia californica */ = {
+			isa = PBXGroup;
+			children = (
+				E4CB68712462DB130011BDCF /* Darlingtonia californica_full.png */,
+				E48B884824E12F5200821AD6 /* Darlingtonia californica_stalk.png */,
+				E4CB68752462DD070011BDCF /* Darlingtonia californica_nonactive.png */,
+				E48B884A24E12F6500821AD6 /* Darlingtonia californica_flower_side.png */,
+				E43A2D7124445B4F006E1E1D /* Darlingtonia californica_flower.png */,
+				E43A2D6F24445B4F006E1E1D /* Darlingtonia californica_pitcher_side.png */,
+				E43A2D7224445B4F006E1E1D /* Darlingtonia californica_pitcher.png */,
+			);
+			path = "Darlingtonia californica";
+			sourceTree = "<group>";
+		};
+		E45D0C1024C59D88004BB5F9 /* searchName */ = {
+			isa = PBXGroup;
+			children = (
+				E45D0C2624C5A9F8004BB5F9 /* imageTop */,
+				E45D0C2324C5A10F004BB5F9 /* imagePlant */,
+				E45D0C4124C5DE95004BB5F9 /* image_more.png */,
+				E48B885224E15AD800821AD6 /* image_filter.png */,
+				E48B885424E16BE700821AD6 /* image_checkbox_off.png */,
+				E48B885524E16BE800821AD6 /* image_checkbox_on.png */,
+			);
+			path = searchName;
+			sourceTree = "<group>";
+		};
+		E45D0C2324C5A10F004BB5F9 /* imagePlant */ = {
+			isa = PBXGroup;
+			children = (
+				E45D0C1824C59F65004BB5F9 /* Aldrovanda vesiculosa.png */,
+				E45D0C1524C59F64004BB5F9 /* Catopsis berteroniana.png */,
+				E45D0C1724C59F65004BB5F9 /* Cephalotus folicularis.png */,
+				E45D0C1124C59F64004BB5F9 /* Darlingtonia californica.png */,
+				E45D0C1224C59F64004BB5F9 /* Dionaea muscipula.png */,
+				E45D0C1924C59F65004BB5F9 /* Nepenthes edwardtiana.png */,
+				E45D0C1624C59F65004BB5F9 /* Sarracenia alata   .png */,
+				E45D0C1424C59F64004BB5F9 /* Utricularia aurea.png */,
+				E45D0C1324C59F64004BB5F9 /* Utricularia dunlopii.png */,
+			);
+			path = imagePlant;
+			sourceTree = "<group>";
+		};
+		E45D0C2624C5A9F8004BB5F9 /* imageTop */ = {
+			isa = PBXGroup;
+			children = (
+				E45D0C2A24C5AA06004BB5F9 /* image_topCultiv.png */,
+				E45D0C2F24C5AA07004BB5F9 /* image_topEdu.png */,
+				E45D0C3124C5AA07004BB5F9 /* image_topMontage.png */,
+				E45D0C2C24C5AA06004BB5F9 /* image_topName.png */,
+				E45D0C3224C5AA07004BB5F9 /* image_topShop.png */,
+			);
+			path = imageTop;
+			sourceTree = "<group>";
+		};
+		E460127C2542CD8600BF30E4 /* viewShowDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E49BC128255421F900522C31 /* basic */,
+				E49BC0992553DE4600522C31 /* seed */,
+				E49BC0982553DE4000522C31 /* pitcher */,
+				E49BC0972553DE3600522C31 /* phyllodia */,
+				E49BC0962553DE2600522C31 /* fruit */,
+				E49BC08D2553DDEA00522C31 /* flower */,
+			);
+			path = viewShowDetail;
+			sourceTree = "<group>";
+		};
+		E466ACFF249B98E4004D6B96 /* aboutDescription */ = {
+			isa = PBXGroup;
+			children = (
+				E475B0402578CDBC00A59CD3 /* image_triangle.png */,
+				E475B03E25779EF100A59CD3 /* button_markQ.png */,
+				E459BCFB25A54F59008DC2AA /* image_IUCN.png */,
+				E459BCFD25A54FB6008DC2AA /* image_IUCN_redList.png */,
+			);
+			path = aboutDescription;
+			sourceTree = "<group>";
+		};
+		E4784F6A259C70CA00FFA021 /* aboutClassification */ = {
+			isa = PBXGroup;
+			children = (
+				E4784F6D259C7AB100FFA021 /* image_downwardArrow.png */,
+			);
+			path = aboutClassification;
+			sourceTree = "<group>";
+		};
+		E49BC08D2553DDEA00522C31 /* flower */ = {
+			isa = PBXGroup;
+			children = (
+				E49BC0DC25541FE300522C31 /* image_morphology_flower_flowerBasic_basic_Whole_component_Complete.png */,
+				E49BC0E425541FE400522C31 /* image_morphology_flower_flowerBasic_basic_Whole_sexual_hermaphorodite.png */,
+				E49BC0F925541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Sarracenia_flowerForm_cage.png */,
+				E49BC0CF25541FE100522C31 /* image_morphology_flower_flowerBasic_shape_Whole_attechment_petiolate.png */,
+				E49BC0CE25541FE000522C31 /* image_morphology_flower_flowerBasic_shape_Whole_flowerDirection_pendant.png */,
+				E49BC0E725541FE500522C31 /* image_morphology_flower_flowerBasic_shape_Whole_symmetric_actinomorphic.png */,
+				E49BC0D225541FE100522C31 /* image_morphology_flower_flowerDetail_basic_Whole_distinct_dichlamydeous.png */,
+				E49BC0DB25541FE300522C31 /* image_morphology_flower_flowerDetail_basic_Whole_petal-sepal_alternate.png */,
+				E49BC0E125541FE400522C31 /* image_morphology_flower_gynoecium_Basic_Whole_location_terminal.png */,
+				E49BC0D325541FE100522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_location_superior.png */,
+				E49BC0F625541FE700522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_globose.png */,
+				E49BC0E225541FE400522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_obturbinate.png */,
+				E49BC0F025541FE600522C31 /* image_morphology_flower_gynoecium_pistil_Sarracenia_shape_umbrella.png */,
+				E49BC0E525541FE400522C31 /* image_morphology_flower_gynoecium_stigma_Whole_shape_knob.png */,
+				E49BC0ED25541FE600522C31 /* image_morphology_flower_inflorescence_basic_Whole_location_scape.png */,
+				E49BC0D925541FE200522C31 /* image_morphology_flower_inflorescence_basic_Whole_position_erect.png */,
+				E49BC0DD25541FE300522C31 /* image_morphology_flower_inflorescence_basic_Whole_type_solitary.png */,
+				E49BC0EE25541FE600522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_apiculate.png */,
+				E49BC0D125541FE100522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_obtuse.png */,
+				E49BC0DA25541FE200522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_rounded.png */,
+				E49BC0F225541FE700522C31 /* image_morphology_flower_inflorescence_bract_Whole_location_acrocaulis.png */,
+				E49BC0E325541FE400522C31 /* image_morphology_flower_inflorescence_bract_Whole_margin_entire.png */,
+				E49BC0CC25541FE000522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_deltoid.png */,
+				E49BC0DF25541FE300522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_ovate.png */,
+				E49BC0D825541FE200522C31 /* image_morphology_flower_petal_Basic_Whole_seperation_polypetalous.png */,
+				E49BC0E625541FE500522C31 /* image_morphology_flower_petal_shape_Whole_apex_obtuse.png.png */,
+				E49BC0EC25541FE500522C31 /* image_morphology_flower_petal_shape_Whole_apex_rounded.png */,
+				E49BC0F825541FE800522C31 /* image_morphology_flower_petal_shape_Whole_basal_rounded.png */,
+				E49BC0D425541FE100522C31 /* image_morphology_flower_petal_shape_Whole_margin_entire.png */,
+				E49BC0D025541FE100522C31 /* image_morphology_flower_petal_shape_Whole_margin_undulate.png */,
+				E49BC0CD25541FE000522C31 /* image_morphology_flower_petal_shape_Whole_position_chairForm.png */,
+				E49BC0E825541FE500522C31 /* image_morphology_flower_petal_shape_Whole_shape_pandulate.png */,
+				E49BC0D525541FE200522C31 /* image_morphology_flower_sepal_basic_Whole_seperation_polysepalous.png */,
+				E49BC0F125541FE600522C31 /* image_morphology_flower_sepal_shape_Whole_apex_obtuse.png */,
+				E49BC0F525541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_apex_rounded.png */,
+				E49BC0D625541FE200522C31 /* image_morphology_flower_sepal_shape_Whole_margin_entire.png */,
+				E49BC0E925541FE500522C31 /* image_morphology_flower_sepal_shape_Whole_position_conduplicate.png */,
+				E49BC0DE25541FE300522C31 /* image_morphology_flower_sepal_shape_Whole_shape_broadlyOvate.png */,
+				E49BC0F325541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_shape_deltoid.png */,
+				E49BC0F425541FE700522C31 /* image_morphology_flower_sepal_shape_Whole_shape_ovate.png */,
+				E49BC0E025541FE400522C31 /* image_morphology_flower_stamen_anther_Whole_attechment_dorsifixed.png */,
+				E49BC0F725541FE700522C31 /* image_morphology_flower_stamen_anther_Whole_open_longitudinal.png */,
+				E49BC0EA25541FE500522C31 /* image_morphology_flower_stamen_anther_Whole_type_dithecal.png */,
+				E49BC0EB25541FE500522C31 /* image_morphology_flower_stamen_basic_Whole_location_hypogynous.png */,
+				E49BC0D725541FE200522C31 /* image_morphology_flower_stamen_basic_Whole_type_apostemonous.png */,
+				E49BC0EF25541FE600522C31 /* image_morphology_flower_stamen_filament_Whole_shape_subulate.png */,
+			);
+			path = flower;
+			sourceTree = "<group>";
+		};
+		E49BC0962553DE2600522C31 /* fruit */ = {
+			isa = PBXGroup;
+			children = (
+				E49BC0C52553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_open_loculicidal.png */,
+				E49BC0C62553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_shape_globose.png */,
+				E49BC0C42553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_type_capsule.png */,
+			);
+			path = fruit;
+			sourceTree = "<group>";
+		};
+		E49BC0972553DE3600522C31 /* phyllodia */ = {
+			isa = PBXGroup;
+			children = (
+				E49BC0BE2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_head_knob.png */,
+				E49BC0BC2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_startingPoint_rhizome.png */,
+				E49BC0BA2553DE7B00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_type_straight.png */,
+				E49BC0BB2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_wing_sail.png */,
+				E49BC0BD2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Whole_location_radical.png */,
+			);
+			path = phyllodia;
+			sourceTree = "<group>";
+		};
+		E49BC0982553DE4000522C31 /* pitcher */ = {
+			isa = PBXGroup;
+			children = (
+				E49BC0A42553DE6F00522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_pitcher shape_trumpet.png */,
+				E49BC0A22553DE6F00522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_starting point_rhizome.png */,
+				E49BC0AA2553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Whole_location_radical.png */,
+				E49BC0A92553DE6F00522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_shape_tubular.png */,
+				E49BC0A82553DE6F00522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_hair_downward.png */,
+				E49BC0AC2553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_acute.png */,
+				E49BC0A32553DE6F00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_mucronate.png */,
+				E49BC0A62553DE6F00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_margin_entire.png */,
+				E49BC0A02553DE6E00522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_shape_ovate.png */,
+				E49BC0AB2553DE7000522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_direction_outward.png */,
+				E49BC0A52553DE6F00522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_shape_rolled.png */,
+				E49BC0A12553DE6E00522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_margin_entire.png */,
+				E49BC0A72553DE6F00522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_shape_keel.png */,
+			);
+			path = pitcher;
+			sourceTree = "<group>";
+		};
+		E49BC0992553DE4600522C31 /* seed */ = {
+			isa = PBXGroup;
+			children = (
+				E49BC09B2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_shape_ovoid.png */,
+				E49BC09A2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_surface_colliculate.png */,
+				E49BC09C2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_wing_keel.png */,
+			);
+			path = seed;
+			sourceTree = "<group>";
+		};
+		E49BC128255421F900522C31 /* basic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = basic;
+			sourceTree = "<group>";
+		};
+		E49BC129255A69BB00522C31 /* plants */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5311925B7F21A002F3B62 /* Sarracenia alata    */,
+				E43F97292410E788000A290C /* Darlingtonia californica */,
+			);
+			path = plants;
+			sourceTree = "<group>";
+		};
+		E4A5311925B7F21A002F3B62 /* Sarracenia alata    */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5311A25B7F21A002F3B62 /* Sarracenia alata   _flowerMap.png */,
+				E4A5311B25B7F21A002F3B62 /* Sarracenia alata   _fruit.png */,
+				E4A5311C25B7F21A002F3B62 /* Sarracenia alata   _pitcher.png */,
+				E4A5311D25B7F21A002F3B62 /* Sarracenia alata   _pistil.png */,
+				E4A5311E25B7F21A002F3B62 /* Sarracenia alata   _phyllodia.png */,
+				E4A5311F25B7F21A002F3B62 /* Sarracenia alata   _flower_side.png */,
+				E4A5312025B7F21A002F3B62 /* Sarracenia alata   _sepal.png */,
+				E4A5312125B7F21A002F3B62 /* Sarracenia alata   _nonactive.png */,
+				E4A5312225B7F21A002F3B62 /* Sarracenia alata   _seed.png */,
+				E4A5312325B7F21A002F3B62 /* Sarracenia alata   _flower.png */,
+				E4A5312425B7F21A002F3B62 /* Sarracenia alata   _stalk.png */,
+				E4A5312525B7F21A002F3B62 /* Sarracenia alata   _pitcher_side.png */,
+				E4A5312625B7F21A002F3B62 /* Sarracenia alata   _seed_group.png */,
+				E4A5312725B7F21A002F3B62 /* Sarracenia alata   _fruit_side.png */,
+				E4A5312825B7F21A002F3B62 /* Sarracenia alata   _petal.png */,
+				E4A5312925B7F21A002F3B62 /* Sarracenia alata   _stamen.png */,
+				E4A5312A25B7F21A002F3B62 /* Sarracenia alata   _full.png */,
+			);
+			path = "Sarracenia alata   ";
+			sourceTree = "<group>";
+		};
+		E4CB685C245856F00011BDCF /* ruler */ = {
+			isa = PBXGroup;
+			children = (
+				E4CB685F245857810011BDCF /* button_basketball_off.png */,
+				E4CB6862245857820011BDCF /* button_basketball_on.png */,
+				E4CB6861245857820011BDCF /* button_card_off.png */,
+				E4CB6860245857820011BDCF /* button_card_on.png */,
+				E4CB6863245857830011BDCF /* button_coin_off.png */,
+				E4CB6864245857830011BDCF /* button_coin_on.png */,
+				E4CB685D245857810011BDCF /* button_man_off.png */,
+				E4CB685E245857810011BDCF /* button_man_on.png */,
+				E4CB68782462E2200011BDCF /* image_basketBall.png */,
+				E4CB687B2462E2200011BDCF /* image_card.png */,
+				E4CB687A2462E2200011BDCF /* image_coin.png */,
+				E4CB687C2462E2200011BDCF /* image_ground.png */,
+				E43FAAF82477C4490084B715 /* image_man.png */,
+				E4CB68832462EAB60011BDCF /* image_dashVertical.png */,
+				E43D5EB52488F15400AFE848 /* button_rotation.png */,
+				E43D5EBD248FB36200AFE848 /* image_dial.png */,
+			);
+			path = ruler;
+			sourceTree = "<group>";
+		};
+		E4F3D6FA2515F3D500CE1173 /* viewMain */ = {
+			isa = PBXGroup;
+			children = (
+				E460127C2542CD8600BF30E4 /* viewShowDetail */,
+				E4F3D6FB2515F43E00CE1173 /* viewFlowerComponent */,
+				E4560070243B57DF00333414 /* button_ruler_off.png */,
+				E4CB686D2462DA570011BDCF /* button_ruler_on.png */,
+				E4560073243B6C6900333414 /* button_close.png */,
+				E470BF4825025D8600D602E7 /* button_goFirst.png */,
+				E470BF4A25025D8700D602E7 /* button_back.png */,
+				E470BF4925025D8600D602E7 /* button_showRoot.png */,
+				E470BF4B25025D8700D602E7 /* button_showStem.png */,
+				E470BF5D2504FD8E00D602E7 /* button_showStalk_off.png */,
+				E470BF64250517A500D602E7 /* button_showStalk_on.png */,
+				E470BF6C250591F500D602E7 /* button_showSeed_on.png */,
+				E470BF6D250591F600D602E7 /* button_showSeed_off.png */,
+				E470BF552502690700D602E7 /* image_crossSection.png */,
+				E470BF542502690700D602E7 /* image_crossSectionCircle.png */,
+				E470BF562502690800D602E7 /* image_recombine.png */,
+				E470BF6225050E4700D602E7 /* image_switchCircle.png */,
+				E470BF5E2504FD8E00D602E7 /* image_switchFlower.png */,
+				E470BF5C2504FD8E00D602E7 /* image_switchFruit.png */,
+				E4F3D6EE25149A6500CE1173 /* image_seedZoom_in.png */,
+				E4F3D6F82514A72D00CE1173 /* image_seedZoom_out.png */,
+				E460127A2540911D00BF30E4 /* button_showDetail.png */,
+				E460127825408D4400BF30E4 /* button_closeShowDetail.png */,
+			);
+			path = viewMain;
+			sourceTree = "<group>";
+		};
+		E4F3D6FB2515F43E00CE1173 /* viewFlowerComponent */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3D7042515F45600CE1173 /* button_flowerMap_off.png */,
+				E4F3D6FC2515F45600CE1173 /* button_flowerMap_on.png */,
+				E4F3D7012515F45600CE1173 /* button_petal_off.png */,
+				E4F3D6FE2515F45600CE1173 /* button_petal_on.png */,
+				E4F3D6FD2515F45600CE1173 /* button_sepal_off.png */,
+				E4F3D7052515F45600CE1173 /* button_sepal_on.png */,
+				E4F3D6FF2515F45600CE1173 /* button_stamen_off.png */,
+				E4F3D7032515F45600CE1173 /* button_stamen_on.png */,
+				E4F3D7002515F45600CE1173 /* button_pistil_off.png */,
+				E4F3D7022515F45600CE1173 /* button_pistil_on.png */,
+			);
+			path = viewFlowerComponent;
+			sourceTree = "<group>";
+		};
+		E4F552FC25D150AE001D7489 /* bookPartsVCs */ = {
+			isa = PBXGroup;
+			children = (
+				E4F552FA25D150A8001D7489 /* bookPartsPitcherVC.swift */,
+				E4CCE6A625D2B07B00701123 /* bookPartsPhyllodiaVC.swift */,
+				E48C118D25DA2AEA00132092 /* bookPartsFlowerAndFruitVC.swift */,
+				E4CCE6A825D2B15900701123 /* bookPartsInflorescenceVC.swift */,
+				E4CCE6AC25D2B19000701123 /* bookPartsFruitVC.swift */,
+				E48C119125DCC23500132092 /* bookPartsFlowerMapVC.swift */,
+				E4CCE6AE25D3F0D000701123 /* bookPartsFunctions.swift */,
+			);
+			name = bookPartsVCs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E43F970F2410E543000A290C /* Plantarium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43F97222410E546000A290C /* Build configuration list for PBXNativeTarget "Plantarium" */;
+			buildPhases = (
+				7D6B8749D97CA9470E1DEEE9 /* [CP] Check Pods Manifest.lock */,
+				E43F970C2410E543000A290C /* Sources */,
+				E43F970D2410E543000A290C /* Frameworks */,
+				E43F970E2410E543000A290C /* Resources */,
+				E4FE7F102567A8F100ECC67F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plantarium;
+			packageProductDependencies = (
+			);
+			productName = notitle5;
+			productReference = E43F97102410E543000A290C /* Plantarium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43F97082410E543000A290C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "정은후";
+				TargetAttributes = {
+					E43F970F2410E543000A290C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E43F970B2410E543000A290C /* Build configuration list for PBXProject "Plantarium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E43F97072410E543000A290C;
+			packageReferences = (
+			);
+			productRefGroup = E43F97112410E543000A290C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E43F970F2410E543000A290C /* Plantarium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E43F970E2410E543000A290C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E470BF4E25025D8800D602E7 /* button_back.png in Resources */,
+				E49BC0B92553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_acute.png in Resources */,
+				E49BC11C25541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_apiculate.png in Resources */,
+				E4A5312C25B7F21A002F3B62 /* Sarracenia alata   _fruit.png in Resources */,
+				E4A5313325B7F21A002F3B62 /* Sarracenia alata   _seed.png in Resources */,
+				E4A6E55124D974F400B0DF80 /* image_silder_body.png in Resources */,
+				E4560077243B6C6A00333414 /* button_close.png in Resources */,
+				E48B884B24E12F6500821AD6 /* Darlingtonia californica_flower_side.png in Resources */,
+				E49BC0C92553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_shape_globose.png in Resources */,
+				E470BF572502690800D602E7 /* image_crossSectionCircle.png in Resources */,
+				E43F971E2410E546000A290C /* LaunchScreen.storyboard in Resources */,
+				E466ACEF249A3346004D6B96 /* button_cultivation.png in Resources */,
+				E4F3D7072515F45700CE1173 /* button_sepal_off.png in Resources */,
+				E49BC0FF25541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_obtuse.png in Resources */,
+				E49BC0C02553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_wing_sail.png in Resources */,
+				E4CB6867245857830011BDCF /* button_basketball_off.png in Resources */,
+				E49BC0C12553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_startingPoint_rhizome.png in Resources */,
+				E4560072243B57E000333414 /* button_ruler_off.png in Resources */,
+				E470BF6325050E4B00D602E7 /* image_switchCircle.png in Resources */,
+				E45D0C2024C59F65004BB5F9 /* Cephalotus folicularis.png in Resources */,
+				E43D5EBE248FB36200AFE848 /* image_dial.png in Resources */,
+				E4CB6865245857830011BDCF /* button_man_off.png in Resources */,
+				E49BC12225541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_shape_ovate.png in Resources */,
+				E49BC0AE2553DE7000522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_margin_entire.png in Resources */,
+				E4CB686A245857830011BDCF /* button_basketball_on.png in Resources */,
+				E4A5313025B7F21A002F3B62 /* Sarracenia alata   _flower_side.png in Resources */,
+				E4A5313A25B7F21A002F3B62 /* Sarracenia alata   _stamen.png in Resources */,
+				E4F3D70F2515F45700CE1173 /* button_sepal_on.png in Resources */,
+				E49BC11525541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Whole_symmetric_actinomorphic.png in Resources */,
+				E49BC11125541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_margin_entire.png in Resources */,
+				E470BF4D25025D8800D602E7 /* button_showRoot.png in Resources */,
+				E49BC0C22553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Whole_location_radical.png in Resources */,
+				E49BC10825541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_apex_rounded.png in Resources */,
+				E4CB686C245857830011BDCF /* button_coin_on.png in Resources */,
+				E49BC09E2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_shape_ovoid.png in Resources */,
+				E45D0C2224C59F65004BB5F9 /* Nepenthes edwardtiana.png in Resources */,
+				E49BC11425541FE800522C31 /* image_morphology_flower_petal_shape_Whole_apex_obtuse.png.png in Resources */,
+				E48B885624E16BE800821AD6 /* image_checkbox_off.png in Resources */,
+				E49BC10425541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_margin_entire.png in Resources */,
+				E49BC11825541FE800522C31 /* image_morphology_flower_stamen_anther_Whole_type_dithecal.png in Resources */,
+				E49BC11F25541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_apex_obtuse.png in Resources */,
+				E4A5312D25B7F21A002F3B62 /* Sarracenia alata   _pitcher.png in Resources */,
+				E49BC0B62553DE7000522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_shape_tubular.png in Resources */,
+				E49BC0B82553DE7000522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_direction_outward.png in Resources */,
+				E49BC10625541FE800522C31 /* image_morphology_flower_petal_Basic_Whole_seperation_polypetalous.png in Resources */,
+				E4CB68762462DD070011BDCF /* Darlingtonia californica_nonactive.png in Resources */,
+				E43C146924ED058800AF71FA /* image_silder_background.png in Resources */,
+				E45D0C3624C5AA07004BB5F9 /* image_topCultiv.png in Resources */,
+				E49BC12125541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_shape_deltoid.png in Resources */,
+				E49BC0B52553DE7000522C31 /* image_morphology_pitcher_pitcher_body_Sarracenia_hair_downward.png in Resources */,
+				E43A2D7724445B4F006E1E1D /* Darlingtonia californica_pitcher.png in Resources */,
+				E4CB6868245857830011BDCF /* button_card_on.png in Resources */,
+				E49BC0FC25541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Whole_flowerDirection_pendant.png in Resources */,
+				E4A5313125B7F21A002F3B62 /* Sarracenia alata   _sepal.png in Resources */,
+				E49BC0AD2553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_shape_ovate.png in Resources */,
+				E49BC0FB25541FE800522C31 /* image_morphology_flower_petal_shape_Whole_position_chairForm.png in Resources */,
+				75E9D695299105EA00BB68FE /* Plantarium.app in Resources */,
+				E49BC11E25541FE800522C31 /* image_morphology_flower_gynoecium_pistil_Sarracenia_shape_umbrella.png in Resources */,
+				E49BC0B42553DE7000522C31 /* image_morphology_pitcher_pitcher_wing_Sarracenia_shape_keel.png in Resources */,
+				E460127925408D4500BF30E4 /* button_closeShowDetail.png in Resources */,
+				E49BC10925541FE800522C31 /* image_morphology_flower_flowerDetail_basic_Whole_petal-sepal_alternate.png in Resources */,
+				E466ACED249A3346004D6B96 /* button_classification.png in Resources */,
+				E43F971B2410E546000A290C /* Assets.xcassets in Resources */,
+				E49BC0B22553DE7000522C31 /* image_morphology_pitcher_pitcher_peristome_Sarracenia_shape_rolled.png in Resources */,
+				E4784F6E259C7AB100FFA021 /* image_downwardArrow.png in Resources */,
+				E466ACEE249A3346004D6B96 /* button_photo.png in Resources */,
+				E43F97192410E543000A290C /* Main.storyboard in Resources */,
+				E4A5313425B7F21A002F3B62 /* Sarracenia alata   _flower.png in Resources */,
+				E4CB68802462E2200011BDCF /* image_coin.png in Resources */,
+				E49BC0FE25541FE800522C31 /* image_morphology_flower_petal_shape_Whole_margin_undulate.png in Resources */,
+				E49BC11225541FE800522C31 /* image_morphology_flower_flowerBasic_basic_Whole_sexual_hermaphorodite.png in Resources */,
+				E49BC12025541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_location_acrocaulis.png in Resources */,
+				E459BCFE25A54FB7008DC2AA /* image_IUCN_redList.png in Resources */,
+				E49BC10F25541FE800522C31 /* image_morphology_flower_gynoecium_Basic_Whole_location_terminal.png in Resources */,
+				E41BD09124769FA1009F2D55 /* (temp)image_me.png in Resources */,
+				E49BC12725541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Sarracenia_flowerForm_cage.png in Resources */,
+				E4F3D70B2515F45700CE1173 /* button_petal_off.png in Resources */,
+				E4F3D7082515F45700CE1173 /* button_petal_on.png in Resources */,
+				E4CB686B245857830011BDCF /* button_coin_off.png in Resources */,
+				E460127B2540911D00BF30E4 /* button_showDetail.png in Resources */,
+				E49BC11625541FE800522C31 /* image_morphology_flower_petal_shape_Whole_shape_pandulate.png in Resources */,
+				E43FAAF92477C4490084B715 /* image_man.png in Resources */,
+				E470BF612504FD8E00D602E7 /* image_switchFlower.png in Resources */,
+				E49BC0FA25541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_deltoid.png in Resources */,
+				E43D5EB62488F15400AFE848 /* button_rotation.png in Resources */,
+				E49BC12425541FE800522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_globose.png in Resources */,
+				E49BC12525541FE800522C31 /* image_morphology_flower_stamen_anther_Whole_open_longitudinal.png in Resources */,
+				E45D0C3824C5AA07004BB5F9 /* image_topName.png in Resources */,
+				E49BC11725541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_position_conduplicate.png in Resources */,
+				E49BC12325541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_apex_rounded.png in Resources */,
+				E4A5313925B7F21A002F3B62 /* Sarracenia alata   _petal.png in Resources */,
+				E459BCFC25A54F5A008DC2AA /* image_IUCN.png in Resources */,
+				E4784F662599CACA00FFA021 /* TitleAlignment.csv in Resources */,
+				E470BF582502690800D602E7 /* image_crossSection.png in Resources */,
+				E4CB6869245857830011BDCF /* button_card_off.png in Resources */,
+				E49BC0FD25541FE800522C31 /* image_morphology_flower_flowerBasic_shape_Whole_attechment_petiolate.png in Resources */,
+				E4CB68822462E2200011BDCF /* image_ground.png in Resources */,
+				E45D0C1F24C59F65004BB5F9 /* Sarracenia alata   .png in Resources */,
+				E470BF6F250591F600D602E7 /* button_showSeed_off.png in Resources */,
+				E45D0C4224C5DE96004BB5F9 /* image_more.png in Resources */,
+				E4F3D7062515F45700CE1173 /* button_flowerMap_on.png in Resources */,
+				E45D0C1A24C59F65004BB5F9 /* Darlingtonia californica.png in Resources */,
+				E49BC09D2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_surface_colliculate.png in Resources */,
+				E41BD09024769FA1009F2D55 /* image_hamburger.png in Resources */,
+				E45D0C3D24C5AA07004BB5F9 /* image_topMontage.png in Resources */,
+				E4F3D70C2515F45700CE1173 /* button_pistil_on.png in Resources */,
+				E49BC0AF2553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_starting point_rhizome.png in Resources */,
+				E49BC10A25541FE800522C31 /* image_morphology_flower_flowerBasic_basic_Whole_component_Complete.png in Resources */,
+				E49BC10225541FE800522C31 /* image_morphology_flower_petal_shape_Whole_margin_entire.png in Resources */,
+				E48B885724E16BE800821AD6 /* image_checkbox_on.png in Resources */,
+				E49BC11A25541FE800522C31 /* image_morphology_flower_petal_shape_Whole_apex_rounded.png in Resources */,
+				E45D0C3E24C5AA07004BB5F9 /* image_topShop.png in Resources */,
+				E49BC11025541FE800522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_shape_obturbinate.png in Resources */,
+				E49BC10D25541FE800522C31 /* image_morphology_flower_inflorescence_bract_Whole_shape_ovate.png in Resources */,
+				E4A5312E25B7F21A002F3B62 /* Sarracenia alata   _pistil.png in Resources */,
+				E470BF592502690800D602E7 /* image_recombine.png in Resources */,
+				E45D0C1B24C59F65004BB5F9 /* Dionaea muscipula.png in Resources */,
+				E4CB68842462EAB60011BDCF /* image_dashVertical.png in Resources */,
+				E49BC10E25541FE800522C31 /* image_morphology_flower_stamen_anther_Whole_attechment_dorsifixed.png in Resources */,
+				E470BF5F2504FD8E00D602E7 /* image_switchFruit.png in Resources */,
+				E4F3D7092515F45700CE1173 /* button_stamen_off.png in Resources */,
+				E49BC0B02553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_apex_mucronate.png in Resources */,
+				E4A5313B25B7F21A002F3B62 /* Sarracenia alata   _full.png in Resources */,
+				E49BC10525541FE800522C31 /* image_morphology_flower_stamen_basic_Whole_type_apostemonous.png in Resources */,
+				E49BC0B72553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Whole_location_radical.png in Resources */,
+				E48B885324E15AD800821AD6 /* image_filter.png in Resources */,
+				E48B884D24E130D700821AD6 /* button_distribution.png in Resources */,
+				E49BC10B25541FE800522C31 /* image_morphology_flower_inflorescence_basic_Whole_type_solitary.png in Resources */,
+				E49BC10325541FE800522C31 /* image_morphology_flower_sepal_basic_Whole_seperation_polysepalous.png in Resources */,
+				E48B884924E12F5200821AD6 /* Darlingtonia californica_stalk.png in Resources */,
+				E49BC11D25541FE800522C31 /* image_morphology_flower_stamen_filament_Whole_shape_subulate.png in Resources */,
+				E4CB68812462E2200011BDCF /* image_card.png in Resources */,
+				E4F3D70D2515F45700CE1173 /* button_stamen_on.png in Resources */,
+				E4F3D70E2515F45700CE1173 /* button_flowerMap_off.png in Resources */,
+				E45D0C2124C59F65004BB5F9 /* Aldrovanda vesiculosa.png in Resources */,
+				E45D0C3B24C5AA07004BB5F9 /* image_topEdu.png in Resources */,
+				E49BC12625541FE800522C31 /* image_morphology_flower_petal_shape_Whole_basal_rounded.png in Resources */,
+				E43A2D7424445B4F006E1E1D /* Darlingtonia californica_pitcher_side.png in Resources */,
+				E49BC0C72553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_type_capsule.png in Resources */,
+				E49BC0C32553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_head_knob.png in Resources */,
+				E4F3D6F92514A72D00CE1173 /* image_seedZoom_out.png in Resources */,
+				E49BC11B25541FE800522C31 /* image_morphology_flower_inflorescence_basic_Whole_location_scape.png in Resources */,
+				E49BC0B12553DE7000522C31 /* image_morphology_pitcher_pitcher_basic_Sarracenia_pitcher shape_trumpet.png in Resources */,
+				E49BC10125541FE800522C31 /* image_morphology_flower_gynoecium_Ovary_Whole_location_superior.png in Resources */,
+				E475B03F25779EF200A59CD3 /* button_markQ.png in Resources */,
+				E4A5313225B7F21A002F3B62 /* Sarracenia alata   _nonactive.png in Resources */,
+				E48C279C25DE6CB500132092 /* morphology in Resources */,
+				E470BF4F25025D8800D602E7 /* button_showStem.png in Resources */,
+				E45D0C1C24C59F65004BB5F9 /* Utricularia dunlopii.png in Resources */,
+				E475B0412578CDBC00A59CD3 /* image_triangle.png in Resources */,
+				E4CB687E2462E2200011BDCF /* image_basketBall.png in Resources */,
+				E45D0C1D24C59F65004BB5F9 /* Utricularia aurea.png in Resources */,
+				E4A5313525B7F21A002F3B62 /* Sarracenia alata   _stalk.png in Resources */,
+				E49BC11325541FE800522C31 /* image_morphology_flower_gynoecium_stigma_Whole_shape_knob.png in Resources */,
+				E49BC0C82553DE8800522C31 /* image_morphology_fruit_fruit_basic_Whole_open_loculicidal.png in Resources */,
+				E4976835258E344900507E01 /* Title.csv in Resources */,
+				E470BF602504FD8E00D602E7 /* button_showStalk_off.png in Resources */,
+				E49BC0BF2553DE7C00522C31 /* image_morphology_phyllodia_phyllodia_basic_Sarracenia_type_straight.png in Resources */,
+				E470BF6E250591F600D602E7 /* button_showSeed_on.png in Resources */,
+				E4A5312F25B7F21A002F3B62 /* Sarracenia alata   _phyllodia.png in Resources */,
+				E4A5313825B7F21A002F3B62 /* Sarracenia alata   _fruit_side.png in Resources */,
+				E49BC10C25541FE800522C31 /* image_morphology_flower_sepal_shape_Whole_shape_broadlyOvate.png in Resources */,
+				E466ACF6249A3A30004D6B96 /* button_description.png in Resources */,
+				E4A5312B25B7F21A002F3B62 /* Sarracenia alata   _flowerMap.png in Resources */,
+				E470BF65250517A600D602E7 /* button_showStalk_on.png in Resources */,
+				E49BC0B32553DE7000522C31 /* image_morphology_pitcher_pitcher_cover_Sarracenia_margin_entire.png in Resources */,
+				E4CBADBE25A2E6E000506983 /* button_pistil_off.png in Resources */,
+				E49BC10025541FE800522C31 /* image_morphology_flower_flowerDetail_basic_Whole_distinct_dichlamydeous.png in Resources */,
+				E4A5313625B7F21A002F3B62 /* Sarracenia alata   _pitcher_side.png in Resources */,
+				E43A2D7624445B4F006E1E1D /* Darlingtonia californica_flower.png in Resources */,
+				E4CB686E2462DA570011BDCF /* button_ruler_on.png in Resources */,
+				E49BC11925541FE800522C31 /* image_morphology_flower_stamen_basic_Whole_location_hypogynous.png in Resources */,
+				E45D0C1E24C59F65004BB5F9 /* Catopsis berteroniana.png in Resources */,
+				E49BC10725541FE800522C31 /* image_morphology_flower_inflorescence_basic_Whole_position_erect.png in Resources */,
+				E470BF4C25025D8800D602E7 /* button_goFirst.png in Resources */,
+				E4F3D6F025149A6A00CE1173 /* image_seedZoom_in.png in Resources */,
+				E4CB6866245857830011BDCF /* button_man_on.png in Resources */,
+				E4A5313725B7F21A002F3B62 /* Sarracenia alata   _seed_group.png in Resources */,
+				E49BC09F2553DE4D00522C31 /* image_morphology_seed_seed_basic_Whole_wing_keel.png in Resources */,
+				E4CB68722462DB130011BDCF /* Darlingtonia californica_full.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D6B8749D97CA9470E1DEEE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plantarium-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E43F970C2410E543000A290C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EC21762538D51800F2411D /* bookShowDetailVC.swift in Sources */,
+				E466ACFC249B9670004D6B96 /* aboutClassificationVC.swift in Sources */,
+				E48C119025DC861500132092 /* testVC2.swift in Sources */,
+				E466ACFE249B968B004D6B96 /* aboutDistributionVC.swift in Sources */,
+				E43A2D79244E0A79006E1E1D /* bookAboutVC.swift in Sources */,
+				E4784F682599E10500FFA021 /* connObjects.swift in Sources */,
+				E4CCE6A925D2B15900701123 /* bookPartsInflorescenceVC.swift in Sources */,
+				E45D0C4024C5C09E004BB5F9 /* searchNameVC.swift in Sources */,
+				E459BCFA25A51C8C008DC2AA /* aboutDescriptionIUCNDetailpopupVC.swift in Sources */,
+				E4FE7F252570CC4500ECC67F /* csvConverter.swift in Sources */,
+				E459BCF825A51C41008DC2AA /* aboutDescriptionIUCNpopupVC.swift in Sources */,
+				E43F97142410E543000A290C /* AppDelegate.swift in Sources */,
+				E4F552F725CEB32E001D7489 /* phylogeny.swift in Sources */,
+				E466ACFA249B94F6004D6B96 /* aboutPhotoVC.swift in Sources */,
+				E4FE7F23256F8FE400ECC67F /* conn.swift in Sources */,
+				E466ACF8249B94D5004D6B96 /* aboutDescriptionVC.swift in Sources */,
+				E4CCE6A725D2B07B00701123 /* bookPartsPhyllodiaVC.swift in Sources */,
+				E46012EC2548B90500BF30E4 /* bookShowDetailModalVC.swift in Sources */,
+				E4F552FB25D150A8001D7489 /* bookPartsPitcherVC.swift in Sources */,
+				E48B885124E135EE00821AD6 /* searchNameFilterVC.swift in Sources */,
+				E48C119225DCC23500132092 /* bookPartsFlowerMapVC.swift in Sources */,
+				E456006A2432057000333414 /* bookVC2.swift in Sources */,
+				E4CCE6AF25D3F0D000701123 /* bookPartsFunctions.swift in Sources */,
+				E4CB6886246341010011BDCF /* bookRulerVC.swift in Sources */,
+				E44FA55A25CD399200829686 /* bookVC.swift in Sources */,
+				E41BD0A92476A798009F2D55 /* searchVC.swift in Sources */,
+				E48C118E25DA2AEA00132092 /* bookPartsFlowerAndFruitVC.swift in Sources */,
+				E441477825A70F19004DCE53 /* aboutDistributionLandscapeMapVC.swift in Sources */,
+				E4372B642424B709003C8983 /* testVC.swift in Sources */,
+				E4CCE6AD25D2B19000701123 /* bookPartsFruitVC.swift in Sources */,
+				E48B884F24E132FE00821AD6 /* aboutCultivationVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E43F97172410E543000A290C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E43F97182410E543000A290C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E43F971C2410E546000A290C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E43F971D2410E546000A290C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E43F97202410E546000A290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E43F97212410E546000A290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E43F97232410E546000A290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDJLGB2Z82;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Plantarium/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = JEH.Plantarium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E43F97242410E546000A290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDJLGB2Z82;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Plantarium/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = JEH.Plantarium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E43F970B2410E543000A290C /* Build configuration list for PBXProject "Plantarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43F97202410E546000A290C /* Debug */,
+				E43F97212410E546000A290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43F97222410E546000A290C /* Build configuration list for PBXNativeTarget "Plantarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43F97232410E546000A290C /* Debug */,
+				E43F97242410E546000A290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43F97082410E543000A290C /* Project object */;
+}

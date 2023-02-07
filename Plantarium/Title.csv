@@ -1,0 +1,142 @@
+﻿Sarracenia alata   ,system,life,basic,life cycle,perennial
+Sarracenia alata   ,system,life,basic,type,herb
+Sarracenia alata   ,system,life,basic,size,1200
+Sarracenia alata   ,system,life,environment,climate,temperate
+Sarracenia alata   ,system,life,environment,habitat,Terrestrial
+Sarracenia alata   ,system,life,dormancy,condition,cold
+Sarracenia alata   ,system,life,dormancy,type,rhizome
+Sarracenia alata   ,system,life,dormancy,state,pause
+Sarracenia alata   ,system,life,dormancy,state,dry
+Sarracenia alata   ,system,life,functionality,specialized,carnivorous
+Sarracenia alata   ,system,life,functionality,mechanism,pitfall pitcher
+Sarracenia alata   ,leaf,pitcher,basic,pitcher shape,trumpet
+Sarracenia alata   ,leaf,pitcher,basic,origin,whole leaf
+Sarracenia alata   ,leaf,pitcher,basic,location,radical
+Sarracenia alata   ,leaf,pitcher,basic,starting point,rhizome(Sarracenia)
+Sarracenia alata   ,leaf,pitcher,body,shape,pipe
+Sarracenia alata   ,leaf,pitcher,body,entrance direction,terminal
+Sarracenia alata   ,leaf,pitcher,body,inner surface,hairy
+Sarracenia alata   ,leaf,pitcher,body,inner surface,waxy
+Sarracenia alata   ,leaf,pitcher,body,outer surface,clear
+Sarracenia alata   ,leaf,pitcher,body,posture,erect
+Sarracenia alata   ,leaf,pitcher,body,hair direction,downward
+Sarracenia alata   ,leaf,pitcher,wing,type,simple
+Sarracenia alata   ,leaf,pitcher,wing,shape,keel(Sarracenia)
+Sarracenia alata   ,leaf,pitcher,wing,location,frontal
+Sarracenia alata   ,leaf,pitcher,wing,margin,entire
+Sarracenia alata   ,leaf,pitcher,wing,number,1
+Sarracenia alata   ,leaf,pitcher,cover,shape,ovate(Sarracenia)
+Sarracenia alata   ,leaf,pitcher,cover,apex,acute
+Sarracenia alata   ,leaf,pitcher,cover,apex,mucronate
+Sarracenia alata   ,leaf,pitcher,cover,margin,entire
+Sarracenia alata   ,leaf,pitcher,cover,adaxial surface,clear
+Sarracenia alata   ,leaf,pitcher,cover,abaxial surface,hairy
+Sarracenia alata   ,leaf,pitcher,cover,abaxial surface,nectar gland
+Sarracenia alata   ,leaf,pitcher,cover,posture,flat
+Sarracenia alata   ,leaf,pitcher,cover,position,ascending
+Sarracenia alata   ,leaf,pitcher,peristome,shape,rolled(Sarracenia)
+Sarracenia alata   ,leaf,pitcher,peristome,direction,outward(Sarracenia)
+Sarracenia alata   ,leaf,phyllodia,basic,shape,straight
+Sarracenia alata   ,leaf,phyllodia,basic,location,radical
+Sarracenia alata   ,leaf,phyllodia,basic,starting point,rhizome
+Sarracenia alata   ,leaf,phyllodia,head,shape,knob
+Sarracenia alata   ,leaf,phyllodia,wing,shape,sail
+Sarracenia alata   ,leaf,phyllodia,wing,margin,entire
+Sarracenia alata   ,leaf,phyllodia,wing,location,frontal
+Sarracenia alata   ,stem,rhizome,basic,shape,scale-like cylindrical 
+Sarracenia alata   ,stem,rhizome,basic,location,semi-underground(Sarracenia)
+Sarracenia alata   ,stem,rhizome,basic,direction,horizental
+Sarracenia alata   ,flower,flower type,basic,sex,hermaphrodite
+Sarracenia alata   ,flower,flower type,basic,component,complete
+Sarracenia alata   ,flower,flower type,basic,perianth dinstinct,dichlamydeous
+Sarracenia alata   ,flower,flower type,basic,petal-sepal arrange,alternate
+Sarracenia alata   ,flower,flower type,shape,flower form,umbrella-canopy
+Sarracenia alata   ,flower,flower type,shape,symmetric,actinomorphic
+Sarracenia alata   ,flower,flower type,shape,attachment,sessile
+Sarracenia alata   ,flower,flower type,shape,direction,downward
+Sarracenia alata   ,flower,inflorescence,basic,type,solitary
+Sarracenia alata   ,flower,inflorescence,basic,location,scape
+Sarracenia alata   ,flower,inflorescence,basic,position,erect
+Sarracenia alata   ,flower,inflorescence,flower stalk,cross section,rounded
+Sarracenia alata   ,flower,inflorescence,flower stalk,surface,clear
+Sarracenia alata   ,flower,inflorescence,bract,shape,ovate
+Sarracenia alata   ,flower,inflorescence,bract,location,acrocaulis
+Sarracenia alata   ,flower,inflorescence,bract,attachment,perfoliate
+Sarracenia alata   ,flower,inflorescence,bract,apex,rounded
+Sarracenia alata   ,flower,inflorescence,bract,apex,obtuse
+Sarracenia alata   ,flower,inflorescence,bract,apex,mucronate
+Sarracenia alata   ,flower,inflorescence,bract,basal,rounded
+Sarracenia alata   ,flower,inflorescence,bract,margin,entire
+Sarracenia alata   ,flower,inflorescence,bract,surface,clear
+Sarracenia alata   ,flower,inflorescence,bract,number,3
+Sarracenia alata   ,flower,inflorescence,bract,number,4
+Sarracenia alata   ,flower,inflorescence,flower bud,shape,globose
+Sarracenia alata   ,flower,inflorescence,flower bud,apex,rounded
+Sarracenia alata   ,flower,petal,basic,seperation,polypetalous
+Sarracenia alata   ,flower,petal,basic,number,5
+Sarracenia alata   ,flower,petal,shape,shape,pandulate
+Sarracenia alata   ,flower,petal,shape,apex,rounded
+Sarracenia alata   ,flower,petal,shape,apex,obtuse
+Sarracenia alata   ,flower,petal,shape,margin,entire
+Sarracenia alata   ,flower,petal,shape,margin,undulate
+Sarracenia alata   ,flower,petal,shape,posture,chair form
+Sarracenia alata   ,flower,petal,shape,surface,clear
+Sarracenia alata   ,flower,petal,shape,color,white
+Sarracenia alata   ,flower,petal,shape,color,yellow
+Sarracenia alata   ,flower,sepal,basic,seperation,polysepalous
+Sarracenia alata   ,flower,sepal,basic,number,5
+Sarracenia alata   ,flower,sepal,shape,shape,broadly ovate
+Sarracenia alata   ,flower,sepal,shape,shape,ovate
+Sarracenia alata   ,flower,sepal,shape,apex,rounded
+Sarracenia alata   ,flower,sepal,shape,apex,obtuse
+Sarracenia alata   ,flower,sepal,shape,margin,entire
+Sarracenia alata   ,flower,sepal,shape,surface,clear
+Sarracenia alata   ,flower,sepal,shape,posture,conduplicate
+Sarracenia alata   ,flower,sepal,shape,color,yellow
+Sarracenia alata   ,flower,sepal,shape,color,green
+Sarracenia alata   ,flower,stamen,basic,type,apostemonous
+Sarracenia alata   ,flower,stamen,basic,location,hypogynous
+Sarracenia alata   ,flower,stamen,basic,number,many
+Sarracenia alata   ,flower,stamen,anther,type,dithecal
+Sarracenia alata   ,flower,stamen,anther,dehiscence,longitudinal
+Sarracenia alata   ,flower,stamen,anther,attachment,dorsifixed
+Sarracenia alata   ,flower,stamen,anther,color,yellow
+Sarracenia alata   ,flower,stamen,filament,shape,subulate
+Sarracenia alata   ,flower,stamen,filament,color,white
+Sarracenia alata   ,flower,stamen,filament,color,green
+Sarracenia alata   ,flower,stamen,filament,color,yellow
+Sarracenia alata   ,flower,stamen,pollen,color,yellow
+Sarracenia alata   ,flower,pistil,basic,location,terminal(Sarracenia)
+Sarracenia alata   ,flower,pistil,basic,carpel adhesion,syncarpous
+Sarracenia alata   ,flower,pistil,style,shape,umbrella
+Sarracenia alata   ,flower,pistil,style,color,yellow
+Sarracenia alata   ,flower,pistil,style,color,green
+Sarracenia alata   ,flower,pistil,style,number,1
+Sarracenia alata   ,flower,pistil,stigma,shape,knob
+Sarracenia alata   ,flower,pistil,stigma,shape,filiform
+Sarracenia alata   ,flower,pistil,stigma,surface,clear
+Sarracenia alata   ,flower,pistil,stigma,color,yellow
+Sarracenia alata   ,flower,pistil,stigma,color,green
+Sarracenia alata   ,flower,pistil,stigma,number,5
+Sarracenia alata   ,flower,pistil,ovary,shape,globose
+Sarracenia alata   ,flower,pistil,ovary,shape,obturbinate
+Sarracenia alata   ,flower,pistil,ovary,lobed,5
+Sarracenia alata   ,flower,pistil,ovary,location,superior
+Sarracenia alata   ,flower,pistil,ovary,surface,colliculate
+Sarracenia alata   ,flower,pistil,ovary,color,green
+Sarracenia alata   ,flower,pistil,ovary,number,1
+Sarracenia alata   ,fruit,fruit,basic,type,capsule
+Sarracenia alata   ,fruit,fruit,basic,dehiscence,loculicidal
+Sarracenia alata   ,fruit,fruit,body,shape,globose
+Sarracenia alata   ,fruit,fruit,body,surface,colliculate
+Sarracenia alata   ,fruit,seed,basic,dispersal,wind
+Sarracenia alata   ,fruit,seed,basic,dispersal,water
+Sarracenia alata   ,fruit,seed,body,shape,ovoid
+Sarracenia alata   ,fruit,seed,body,surface,colliculate
+Sarracenia alata   ,fruit,seed,wing,location,lateral
+Sarracenia alata   ,fruit,seed,wing,shape,keel
+Sarracenia alata   ,fruit,seed,wing,margin,entire
+Sarracenia alata   ,fruit,seed,wing,surface,colliculate
+Sarracenia alata   ,fruit,seed,wing,number,1
+Sarracenia alata   ,root,root system,basic,type,tap
+Sarracenia alata   ,root,root system,basic,shape,net

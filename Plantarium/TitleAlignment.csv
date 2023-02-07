@@ -1,0 +1,56 @@
+﻿system,life,basic,size
+leaf,pitcher,shape,life cycle
+stem,phyllodia,head,origin
+flower,typical leaf,body,sex
+fruit,hooked leaf,wing,component
+root,snap leaf,upper lip,condition
+,sticky leaf,lower lip,type
+,basal leaf,spur,seperation
+,typical stem,blade,dehiscence
+,tuber,trigger,pitcher shape
+,rhizome,petiole,location
+,runner,cover,starting point
+,stolon,peristome,flower form
+,bulb,tendril,symmetric
+,bladder,tentacle,shape
+,flower type,stipule,lobed
+,inflorescence,sheath,cross section
+,petal,antenna,apex
+,tepal,combination,margin
+,sepal,flower stalk,basal
+,stamen,bract,adaxial surface
+,pistil,flower bud,abaxial surface
+,fruit,anther,surface
+,seed,filament,arrangement
+,root system,pollen,attachment
+,adventitious root,style,posture
+,,stigma,lash
+,,ovary,lash arrangement
+,,environment,position
+,,dormancy,direction
+,,functionality,carpel adhesion
+,,,inflated bulge
+,,,length per petal
+,,,connective
+,,,exocarp
+,,,mesocarp
+,,,endocarp
+,,,habit
+,,,climate
+,,,habitat
+,,,specialized
+,,,mechanism
+,,,inner surface
+,,,outer surface
+,,,hair direction
+,,,cork
+,,,new shoot color
+,,,perianth distinct
+,,,petal sepal arrange
+,,,exit type
+,,,fixed type
+,,,state
+,,,color
+,,,adaxial color
+,,,abaxial color
+,,,number
