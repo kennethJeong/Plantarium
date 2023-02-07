@@ -10,9 +10,9 @@ import Foundation
 import RealmSwift
 
 fileprivate struct connConstants {
-    fileprivate static let app = App(id: "plantarium_0-ehqdt")
-    fileprivate static let email = "kennethj@naver.com"
-    fileprivate static let password = "dmsgn7eh"
+    fileprivate static let app = App(id: "****")
+    fileprivate static let email = "****"
+    fileprivate static let password = "****"
     fileprivate static let partition = "plantarium"
     fileprivate static let syncCredentials = Credentials.emailPassword(email: email, password: password)
 }
